@@ -1,0 +1,34 @@
+
+== Salute
+
+=== Alito
+
+Ecco la check list
+
+* bevi acqua regolarmente
+* denti
+    * dopo ogni pasto 
+        ** lavarsi i denti
+        ** filo interdentale
+        ** sciacquare (magari con colluttorio)
+        ** spatola per la lingua
+* evitare
+    ** alcool
+    ** piccante
+    ** formaggi
+    ** dolci
+* incoraggiare
+    * bere acqua regolarmente
+    * verdure
+    * cardamomo
+	
+=== Mindfulness
+
+.((RAIN practice)):footnote:[http://www.mindful.org/tara-brach-rain-mindfulness-practice/]
+
+- *R* ecognize what is going on
+- *A* llow the experience to be there, just as it is
+- *I* nvestigate with kindness
+- *N* atural awareness, which comes from not identifying with the experience
+    
+

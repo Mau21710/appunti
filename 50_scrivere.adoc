@@ -1,0 +1,93 @@
+
+== Appunti per la scrittura
+
+=== Stenografia
+
+image::figures/alfabetoCIMaA.jpg[]
+
+Studiare
+
+* Sec
+* Gl
+
+=== Comandi e dintorni
+
+==== Codice per Pandoc
+
+Blablablabla
+
+==== Help per notepad++
+
+Blablablabla
+
+==== Dettagli per creazione EPUB / GITBOOK
+
+    Best Sizes      Big	        Small
+    File	        cover.jpg	    cover_small.jpg
+    Size(in pixels)	1800x2360	200x262
+
+===== Copertina
+
+-   *Formato*: 800 X 1324 X 24 BPM
+  Kindle::  1050x1600 (16:9 resolution). Dal sito height/width ratio of at least 8:5 (1.6), so a minimum of 625 pixels on the shortest side and 1000 pixels on the longest side. For best quality, your image should be 2500 pixels on the longest side 
+  iPad:: 768 X 1024 px
+  mid Screen:: 800 X 600 px
+  2012 ebooks::  560 X 740 150 dpi
+  GreenPublishing:: Minimum of 1400 x 1800 pixels in size, Must use RGB color mode (not CMYK)
+  Mau21710:: A4 è 210X297, a 150 dpi = 
+
+===== Grafiche
+
+(((Formato A4))) (((A4)))
+
+.Formato iso Ax
+[options="header", cols='1,3,3,4']
+|===
+|  |(mm)        |       (in)  | @150 dpi 
+| 0          | 841 x 1189 | 33.1 x 46.8 | 4965.0 x 7020.0
+| 1          | 594 x 841  | 23.4 x 33.1 | 3510.0 x 4965.0
+| 2          | 420 x 594  | 16.5 x 23.4 | 2475.0 x 3510.0
+| 3          | 297 x 420  | 11.7 x 16.5 | 1755.0 x 2475.0
+| 4          | 210 x 297  | 8.3  x 11.7 | 1245.0 x 1755.0
+| 5          | 148 x 210  | 5.8  x 8.3  | 870.0 x 1245.0
+| 6          | 105 x 148  | 4.1  x 5.8  | 615.0 x 870.0
+| 7          | 74 x 105   | 2.9  x 4.1  | 435.0 x 615.0
+| 8          | 52 x 74    | 2.0  x 2.9  | 300.0 x 435.0
+| 9          | 37 x 52    | 1.5  x 2.0  | 225.0 x 300.0
+| 10         | 26 x 37    | 1.0  x 1.5  | 150.0 x 225.0
+|===
+
+Per le immagini del presente opto preferenzialemnte per 2 formati: PNG e SVG. Inoltre standardizzo 3 risoluzioni.
+
+.Conversione cm to pt
+-----
+1 Centimeter = 28.3464567 Points [Postscript]
+1 Point = 0.0352777778 Centimeters
+-----
+
+5 cm = 141.7322835 pt
+ pdfwidth
+
+===== Da studiare
+
+I fogli di stile.
+
+Da aggiungere alla parte YAML
+
+-   stylesheet
+-   editor
+
+
+==== DOS
+
+.Batch
+-------------------------------
+    "C:\Users\Maurizio\AppData\Local\Pandoc\Pandoc.exe" %1 -s --toc -o %~pn1.epub
+    %~pn1.epub
+
+-------------------------------
+
+testo testo
+
+
+

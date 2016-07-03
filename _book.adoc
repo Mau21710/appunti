@@ -1,0 +1,90 @@
+
+= Appunti
+Maurizio Stagni <comeunbalconeATgmail.com>
+v1.0, 160426
+
+:doctype: book
+:description: vari appunti interessanti
+:keywords: Esercizi, Mindfulness
+:lang: it
+:pdf-page-size: A4
+:author: Maurizio Stagni
+:toc: left
+:toclevels: 4
+
+
+////
+:imagesdir: .
+:imagesdir: /home/maurizio/Mao/GDrive/Fitness/MentorBook/
+:encoding: utf-8
+:producer: Asciidoctor
+:toclevels: 3
+:numbered:
+:copyright: CC-BY-SA 3.0
+:imagesdir: images
+
+:sectids!: Rimuove l'autogenerazione degli indici
+	Default _ sia prima che al posto degli spazi
+:idprefix:
+:idseparator: -
+Change Book Name, Author's Name and Language for your need.
+toc::[]
+
+////
+
+
+
+include::00_intestazione.adoc[]
+include::11_esercizi.adoc[]
+include::12_crossfit.adoc[]
+include::13_esercizi_zuu.adoc[]
+include::14_yoga.adoc[]
+include::15_esercizi_palestra.adoc[]
+include::16_calisthenics.adoc[]
+include::20_stretching.adoc[]
+include::21_posturali.adoc[]
+include::30_salute.adoc[]
+include::40_comunicazione.adoc[]
+include::40_1_canto.adoc[]
+include::40_2_musica.adoc[]
+include::42_carisma.adoc[]
+include::43_mindfulness.adoc[]
+include::48_public_speaking.adoc[]
+include::50_scrivere.adoc[]
+include::50_0_informatica.adoc[]
+include::50_1_linux.adoc[]
+include::50_2_raspberry.adoc[]
+include::50_3_android.adoc[]
+include::50_4_windows.adoc[]
+include::60_business.adoc[]
+include::70_felicita.adoc[]
+
+////
+include::71_felicita.adoc[]
+include::72_felicita.adoc[]
+include::72_felicita_stud.adoc[]
+include::73_felicita.adoc[]
+include::74_esercizio.adoc[]
+include::74_felicita.adoc[]
+include::75_felicita.adoc[]
+include::76_felicita.adoc[]
+////
+
+
+include::80_ciappini.adoc[Ciappini]
+include::90_vacanze.adoc[Vacanze]
+include::99_risorse.adoc[Risorse]
+include::aa_giochi.adoc[giochi]
+
+== Index
+
+Indice dei nomi
+
+////
+.Index terms
+index::[]
+////
+
+
+
+
