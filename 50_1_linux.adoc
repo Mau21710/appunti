@@ -1,3 +1,7 @@
+
+:toc: merge
+:toclevels: 4
+
 == Comandi Linux
 
 === Cambio tastiera 
@@ -140,21 +144,6 @@ $ logout
 <1> premere crtl+Z
 
 
-=== Trovare l'ip
-
-sudo ifconfig
-
-
-=== ((Youtube-dl))
-
-youtube-dl --extract-audio  https://youtu.be/YDx09vPA0yw
-
-
-=== VIM
-
-Sostituzione su tutti i buffer:: 
-	:bufdo %s/trovaquesto/sostituisci con qesto/g | w
-
 
 === Istallazioni Linux
 
@@ -268,6 +257,26 @@ Dropbox App Secret - leave blank normally.
     rclone sync source:path dest:path
 
     rclone sync -v ~/Mao/GDrive/Fitness gb:Fitness/**
+
+=== ((rsync))footnote:[preso da http://www.mrwebmaster.it/linux/rsync-sincronizzare-file-cartelle_11674.html]
+
+==== installazione
+
+    apt-get install rsync
+
+
+rsync -avz /path/to/source /path/to/destination
+
+Vediamo nel dettaglio le opzioni utilizzate:
+
+a:: modalità "archivio" (copia ricorsivamente tutti i file, preservando permessi, timestamp, link simbolici, owner e gruppi);
+u:: Se nella cartella di destinazione si hanno dei file più recenti rispetto alla cartella sorgente e li si vuole preservare si dovrà aggiungere il comando
+v:: modalità "verbose", offre un output a video circa il risultato dell'elaborazione;
+z:: comprime i dati usando l'algoritmo gzip;
+--delete:: Eliminare i file non presenti nella posizione sorgente
+--rsh:: --rsh="ssh -p PORTA" user@host:/path/to/source /path/to/destination
+
+
     
 [[samba]]
 === samba
@@ -489,5 +498,30 @@ aggiungere eventuali altre opzioni con il metodo _opzione=valore_
     unison -version
 
 
-    
-    
+=== Trovare l'ip
+
+sudo ifconfig
+
+
+
+=== VIM
+
+Sostituzione su tutti i buffer:: 
+	:bufdo %s/trovaquesto/sostituisci con qesto/g | w
+   
+=== ((Youtube-dl))
+
+estrazione audio::
+    youtube-dl --extract-audio  https://youtu.be/YDx09vPA0yw
+
+update::
+    sudo pip install -U youtube-dl
+
+=== Wi-Fi, creare un ((hotspot))
+
+- Andare in Network
+- Creare una connessione in modalità WiFi
+- Selezionare "Connect to a Hidden Wifi"
+- Selezionare la Network appena creata
+
+

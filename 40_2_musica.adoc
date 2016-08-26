@@ -1,3 +1,5 @@
+:toc: merge
+:toclevels: 4
 
 == Musica
 
@@ -61,6 +63,7 @@ B7 (Si7) |  4·3·2·2 | | |
 | . | 1/2 di battuta senza gesti | |
 |====
 
+[[strumming_44]]
 
 .4/4
 |====
@@ -103,9 +106,9 @@ B7 (Si7) |  4·3·2·2 | | |
 ((amazing grace)) footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I I7 IV V7, Tonalità C +
 4/4 pattern C C7 F C/C7 | F C C G7/C
 
-((banana boat song)):: Progressione I, V7, I rit I IV I +
+((banana boat song)):: footnote:[https://www.youtube.com/watch?v=E9RsJatiXm4] Progressione I, V7, I rit I IV I +
 Tonalità C + 
-4/4 calypso C G7 C, C F C +
+4/4 <<strumming_44, calypso>> C G7 C, C F C +
 
 ((Blues improvvisation)):: Progressione I, IV, V +
 Tonalità D7 + 
