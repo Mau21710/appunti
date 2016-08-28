@@ -1,4 +1,6 @@
-
+:toc:
+:toc-placement: preambe
+:toc-level: 4
 
 == Carisma
 
@@ -233,6 +235,39 @@ Elementi fondamentali: footnoteref:[ToDoMen]
 2.  Fai delle pause.
 3.  Fai calare l'intonazione.
 4.  Respira con l'addome
+
+=== Potere della voce HAIL
+
+preso da https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen?language=it[qui]
+
+
+H:: onesty
+A:: utenticità
+I:: ntegrità
+L:: ove
+
+Toolbox:
+
+registro:: parlare col petto
+timbro:: ricche, calde, profonde
+prosody:: metalinguaggio evitare la monotonia
+pace:: ritmo variabile
+silenzio:: fondamentale
+volume:: modulare pure questo
+
+Warmup
+
+scaldare la voce:
+
+- Braccia su e mollarle con ohhhh
+- bom bom bom
+- brbrbrbrbrbrbr
+- la la la la 
+- rrrrrrrrr
+- weeeeeeeeew (dall tono basso al tono alto)
+
+
+
 
 === Disposizione dei posti carismatica
 

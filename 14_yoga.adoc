@@ -144,7 +144,7 @@ Ecco un elenco delle (((posizioni yoga))) più comuni. Sono riassunte con il seg
 === Sequenze Yoga
 
 .Rilassamento footnote:[vajrasana 120, shashankasana 180, adho_mukha_svanasana 60, uttanasana 120, baddha_konasana 60, upavishta_konasana 120, janu_sirsasana 60x2, paschimottanasana 240, shavasana 60, halasana 30, sarvangasana 60, utthita_sarvangasana 60x2, karnapidasana 30, halasana 30, shavasana 30, supta_baddha_konasana 300, shavasana 300]
-[header=yes, cols="^1,2,1"]
+[cols="^1,2,1"]
 |===
 | Posizione | Descrizione | Secondi
 | image:figures/asana_yoga/vajrasana.svg[role=right, pdfwidth=5cm] | Inginocchiarsi a terra sedendosi sui piedi, appoggiati con il dorso a terra, e mantenendo la spina dritta e verticale con il collo allineato con essa. Le mani saranno appoggiate sulle ginocchia. I piedi possono rimanere paralleli e appoggiati a terra sul dorso. | 120 
@@ -172,7 +172,7 @@ https://youtu.be/F06yrI5Hxl4
 
 
 .Saluto al sole
-[header=yes, cols="^1,2"]
+[cols="^1,2"]
 |===
 | image:figures/asana_yoga/pranamasana.svg[] | posizione della preghiera: ((Pranamasana)) espirare con i piedi uniti e le mani giunte davanti al petto.
 | image:figures/asana_yoga/hasta_uttanasana.svg[] | posizione delle mani sollevate: ((Hasta uttanasana)) inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.

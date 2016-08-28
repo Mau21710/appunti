@@ -2,7 +2,14 @@
 :toc: merge
 :toclevels: 4
 
-== Comandi Linux
+== Appunti Linux
+
+=== ((Blender))
+
+    sudo apt-get install libsdl1.2debian
+    sudo add-apt-repository ppa:thomas-schiex/blender
+    sudo apt-get update
+    sudo apt-get install blender    
 
 === Cambio tastiera 
 
@@ -52,6 +59,46 @@ per riavviare scheda rete (da testare)
 
     rfkill list all
     rfkill unblock all
+
+[[dlna]]
+=== ((DLNA))
+
+    sudo apt-get install minidlna
+    sudo cp /etc/minidlna.conf /etc/backup_minidlna.conf
+    sudo nano /etc/minidlna.conf
+    
+In the configuration file, add
+
+    db_dir=/home/pi/minidlna
+    media_dir=/media/VERBATIM 
+            prima era
+            media_dir=V,/media/VERBATIM
+            media_dir=P,/media/VERBATIM
+    log_dir=/var/log
+    
+Add as many media directories as you need. Change names of drives as needed.    
+
+    mkdir /home/pi/minidlna
+    chmod 777 /home/pi/minidlna    
+    sudo service minidlna force-reload
+    cat /var/log/minidlna.log
+
+Per testare i files:
+
+http://INDIRIZZO-IP-SERVER:8200
+
+
+=== Installazioni Linux
+
+- ((AVCONV)): Libreria per manipolare video +
+    sudo apt-get install libav-tools   
+- ((DCROW)): Libreria per gestire immagini RAW +
+    sudo apt-get install dcraw
+- ((EXIF TOOLS)):  Script Perl per gestire EXIF +
+    sudo apt-get install libimage-exiftool-perl
+- ((Unison)): best sync app
+    sudo apt-get install unison
+
 
 
 === ((Mappare disco rete in Linux))
@@ -104,6 +151,18 @@ Editare il file di configurazione e montare il tutto
     //192.168.1.55/ext_hd/ /media/raspberry_disk cifs credentials=/home/maurizio/.smbcredentials,noexec 0 0   
     sudo mount -a
 
+=== ((Loopback Suono Linux))
+
+    sudo apt-get install jackd && sudo apt-get install fluidsynth qjackctl
+
+=== ((Midi))
+
+    sudo apt-get install fluidsynth
+
+Al termine dell’installazione apri Qsynth dal menù Applicazioni -> Audio e Video -> Qsynth.
+Dall’interfaccia del programma seleziona il pulsante Setup e nella scheda Soundfonts fai click su Open per selezionare il file dei fonts in /usr/share/sounds/sf2/FluidR3_GM.sf2 (quello predefinito che viene visualizzato) e conferma il restart del motore.
+
+    sudo apt-get install timidity timidity-interfaces-extra
 
 === Montare usb esterna
 
@@ -131,6 +190,15 @@ Editare il file di configurazione e montare il tutto
     sudo mkdir /media/DRIVE_NAME_*
     sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda5 /media/sambashare/
 
+
+===  ((mkvmerge)) srt merger
+
+Per incorporare file srt in file matrioska
+
+    apt-get install mkvtoolnix
+    mkvmerge -o output.mkv video.mp4 subtitles.srt
+    
+    
 === ((SSH))
 
 .((Lanciare un comando e uscire senza interroperlo))
@@ -143,55 +211,7 @@ $ logout
 ---------
 <1> premere crtl+Z
 
-
-
-=== Istallazioni Linux
-
-- ((AVCONV)): Libreria per manipolare video +
-    sudo apt-get install libav-tools   
-- ((DCROW)): Libreria per gestire immagini RAW +
-    sudo apt-get install dcraw
-- ((EXIF TOOLS)):  Script Perl per gestire EXIF +
-    sudo apt-get install libimage-exiftool-perl
-- ((Unison)): best sync app
-    sudo apt-get install unison
-
-
     
-=== ((Blender))
-
-    sudo apt-get install libsdl1.2debian
-    sudo add-apt-repository ppa:thomas-schiex/blender
-    sudo apt-get update
-    sudo apt-get install blender    
-
-[[dlna]]
-=== ((DLNA))
-
-    sudo apt-get install minidlna
-    sudo cp /etc/minidlna.conf /etc/backup_minidlna.conf
-    sudo nano /etc/minidlna.conf
-    
-In the configuration file, add
-
-    db_dir=/home/pi/minidlna
-    media_dir=/media/VERBATIM 
-            prima era
-            media_dir=V,/media/VERBATIM
-            media_dir=P,/media/VERBATIM
-    log_dir=/var/log
-    
-Add as many media directories as you need. Change names of drives as needed.    
-
-    mkdir /home/pi/minidlna
-    chmod 777 /home/pi/minidlna    
-    sudo service minidlna force-reload
-    cat /var/log/minidlna.log
-
-Per testare i files:
-
-http://INDIRIZZO-IP-SERVER:8200
-
 
 === ((Simple Google TTS))
 
@@ -201,33 +221,7 @@ http://INDIRIZZO-IP-SERVER:8200
 
     ./simple-google-tts -h #aiuto
 
-=== ((Midi))
-
-    sudo apt-get install fluidsynth
-
-Al termine dell’installazione apri Qsynth dal menù Applicazioni -> Audio e Video -> Qsynth.
-Dall’interfaccia del programma seleziona il pulsante Setup e nella scheda Soundfonts fai click su Open per selezionare il file dei fonts in /usr/share/sounds/sf2/FluidR3_GM.sf2 (quello predefinito che viene visualizzato) e conferma il restart del motore.
-
-    sudo apt-get install timidity timidity-interfaces-extra
-
-===  ((mkvmerge))
-
-Per incorporare file srt in file matrioska
-
-    apt-get install mkvtoolnix
-    mkvmerge -o output.mkv video.mp4 subtitles.srt
     
-=== ((Loopback Suono Linux))
-
-    sudo apt-get install jackd && sudo apt-get install fluidsynth qjackctl
-    
-    
-
-=== ((Xflux))
-
-programma per filtrare i colori degli schermi PC. Si trova al sito https://justgetflux.com/[qui]
-
-    ./xflux  -l 44.55 -g 11.43 -k 2500
 
 
 === ((rclone))
@@ -361,6 +355,31 @@ sudo mount -a <2>
     '1000' è il primo utente, meglio mettere 'pi'
 <2> rimonta fstab. così si può testare che vada tutto bene.
 
+
+=== Smartmontools
+
+[questa fonte]
+
+installare:
+
+    aptitude install smartmontools
+
+richiesta informazioni:
+
+    smartctl --info /dev/sda
+    
+stato HD:
+
+    smartctl -s on -a /dev/sda
+    
+==== monitoraggio live
+
+Editare /etc/default/smartmontools
+    
+    start_smartd=yes
+    smartd_opts="--interval=60200"
+    
+    
 
 
 === SVG File batch conversion to png and svg
@@ -523,5 +542,11 @@ update::
 - Creare una connessione in modalità WiFi
 - Selezionare "Connect to a Hidden Wifi"
 - Selezionare la Network appena creata
+
+=== ((Xflux))
+
+programma per filtrare i colori degli schermi PC. Si trova al sito https://justgetflux.com/[qui]
+
+    ./xflux  -l 44.55 -g 11.43 -k 2500
 
 

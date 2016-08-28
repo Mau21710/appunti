@@ -94,7 +94,7 @@
 
 
 .Post Running footnote:[arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2]
-[header=yes, cols="^1,2,1"]
+[cols="^1,2,1"]
 |===
 | Posizione | Descrizione | Secondi
 | image:figures/stretching/arco_plantare.png[role=right, pdfwidth=5cm] | arco plantare | 20 

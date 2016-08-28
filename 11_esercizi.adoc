@@ -1,3 +1,7 @@
+:toc:
+:toc-placement: preambe
+:toc-level: 4
+
 
 == Elenco Esercizi
 
@@ -24,7 +28,7 @@
 ((bastard burpee)):: 
     image:figures/exercises/bastard_burpee.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((burpee bastardo)). +
-    _Esecuzione_: Come il <<burpee, burpee>>, ma con 2 flessioni. +
+    _Esecuzione_: Come il burpee, ma con 2 flessioni. +
     _Effetti_: Phisico!.
 
 
@@ -103,10 +107,10 @@
 ((criss_cross)):: 
     image:figures/exercises/criss_cross.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione del criss cross)). +
-    _Esecuzione_: <<crunch, addominali>> fatti a ginocchia alte con le gambe a 90 gradi. Portare mani dietro la nuca. Si portano le ginocchia alternate al petto ruotando il busto per toccare le ginocchia con il gomito opposto. +
+    _Esecuzione_: addominali fatti a ginocchia alte con le gambe a 90 gradi. Portare mani dietro la nuca. Si portano le ginocchia alternate al petto ruotando il busto per toccare le ginocchia con il gomito opposto. +
     _Effetti_: Rinforzo Core.
 
-    ** _((Criss Cross to Teaser))_: 3 movimenti di criss cross e si sta per un secondo in posizione <<teaser, teaser>>
+    ** _((Criss Cross to Teaser))_: 3 movimenti di criss cross e si sta per un secondo in posizione teaser
 
 
 [[downdog_to_bridge]]
@@ -195,7 +199,7 @@
     image:figures/exercises/mountain_climber.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((arrampicatore)). +
     _Strumenti_ : nessuno +
-    _Esecuzione_: dalla posizione di <<plank, plank>> portare alternativamente le ginocchia al petto. +
+    _Esecuzione_: dalla posizione di plank portare alternativamente le ginocchia al petto. +
     _Effetti_: rinforzo del core.
 
 
@@ -203,7 +207,7 @@
 ((plank))::
     image:figures/exercises/plank.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione a V)). +
-    _Esecuzione_: Posizione della <<push_up, flessione>> con le braccia tese. +
+    _Esecuzione_: Posizione della flessione con le braccia tese. +
     _Strumenti_ : nessuno
     _Effetti_: ottimo esercizio per il core.
     varianti:::
@@ -221,7 +225,7 @@
 ((plank to teaser)):: 
     image:figures/exercises/plank_to_teaser.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione a V)). +
-    _Esecuzione_: Esercizio dinamico che si fa passando dalla posizione di <<plank, plank sui gomiti>> a quella di <<teaser, posizione a V>> +
+    _Esecuzione_: Esercizio dinamico che si fa passando dalla posizione di <<plank, plank sui gomiti>> a quella di teasef +
     _Strumenti_ : nessuno
     _Effetti_: Fa benissimo.
 
@@ -239,7 +243,7 @@
 ((power_clean)):: 
     image:figures/exercises/power_clean.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((power_clean)), + 
-    _Esecuzione_: Eseguire un <<clean>>, ma con variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto. +
+    _Esecuzione_: Eseguire un clean, ma con variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto. +
     _Strumenti_ : bilanciere
     _Effetti_: fa bene.
 
@@ -265,7 +269,7 @@
 ((push up)):: 
     image:figures/exercises/push_up.svg[role=right, align=right,  pdfwidth=5cm] +
 	_Sinonimi_: ((flessione)) +
-	_Esecuzione_: Esercizio che si esegue partendo dalla posizione di <<plank, plank>>, flettendo e distendendo le braccia +
+	_Esecuzione_: Esercizio che si esegue partendo dalla posizione di plank, flettendo e distendendo le braccia +
 	_Effetti_: Pettorali.
 
 	Varianti:::
@@ -285,7 +289,7 @@
 ((renegade))::
     image:figures/exercises/renegade.svg[role=right, align=right,  pdfwidth=5cm] +
 	_Sinonimi_: ((remata in plank)) +
-    _Esecuzione_: <<plank, plank>> remando con due pesi +
+    _Esecuzione_: plank remando con due pesi +
     _Strumenti_ : dumbbells
     _Effetti_: Muscoli.
 

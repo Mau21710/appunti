@@ -76,11 +76,9 @@ include::90_vacanze.adoc[Vacanze]
 include::99_risorse.adoc[Risorse]
 include::aa_giochi.adoc[giochi]
 
-== Index
-
-Indice dei nomi
-
 ////
+== Index
+Indice dei nomi
 .Index terms
 index::[]
 ////
