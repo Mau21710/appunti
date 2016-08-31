@@ -438,9 +438,10 @@ AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip t
 
 
 
-=== Sequenze
+=== Sequenze varie
 
-=== Circuito MMA 
+
+==== Circuito MMA 
 
     Durata: 30'
     Necessari: barra, corda, dumbbell x 2 

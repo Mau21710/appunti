@@ -10,211 +10,97 @@ v1.0, 160426
 :author: Maurizio Stagni
 :toc: left
 :toclevels: 4
-:page-layout: docs
-:page-description: {description}
-:page-keywords: {keywords}
-:toc: left
-:icons: font
+
+
+////
+:imagesdir: .
+:imagesdir: /home/maurizio/Mao/GDrive/Fitness/MentorBook/
+:encoding: utf-8
+:producer: Asciidoctor
+:toclevels: 3
+:numbered:
+:copyright: CC-BY-SA 3.0
+:imagesdir: images
+
+:sectids!: Rimuove l'autogenerazione degli indici
+	Default _ sia prima che al posto degli spazi
 :idprefix:
 :idseparator: -
-:sectanchors:
-endif::[]
-:experimental:
-:mdash: &#8212;
-:language: asciidoc
-:source-language: {language}
-:table-caption!:
-:example-caption!:
-:figure-caption!:
-:imagesdir: ../images
-:includedir: _includes
+Change Book Name, Author's Name and Language for your need.
+toc::[]
+
+////
+
+
+
 
 
 Questa è l'intestazione del libro vero e proprio
 
 Parte lasciata intenzionalmente bianca
 
-toc::[]
-
+:toc:
+:toc-placement: preambe
+:toc-level: 4
 
 
 == Elenco Esercizi
 
 === Corpo libero
 
+[[air_squat]]
+((air squat))::
+    image:figures/exercises/air_squat.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((accosciata)), ((squat)) +
+    _Esecuzione_: Esercizio che prevede il passaggio dalla posizione eretta a quella accosciata: gambe flesse oltre i 90°, schiena eretta, peso sulla pianata del piede. Le braccia possono essere parallele al terreno o più sollevate. +
+    _Effetti_: migliora la flessibilità, e la muscolatura.
 
-((Accosciata))::
-    _Sinonimi_: ((air squat)), ((squat)) +
-    Esercizio che prevede il passaggio dalla posizione eretta a quella accosciata: gambe flesse oltre i 90°, schiena eretta, peso sulla pianata del piede. Le braccia possono essere parallele al terreno o più sollevate. riferimento <<esercizi1, figura 1a>>
 
-	varianti:::
-
-	*** ((squat jump)): Esercizio adatto al rafforzamento delle gambe
-	*** Squat press
-	*** Squat side to side
+((air squat, varianti))::
+	** ((squat jump)): Esercizio adatto al rafforzamento delle gambe
+	** Squat press
+	** Squat side to side
 		1.  Scendo in squat con una delle due gambe in affondo laterale
 		2.  Salto nella direzione opposta alla gamba in affondo
 		3.  Atterro specularmente al punto 1
 
-[[addominali]]
-((addominali)):: Da supini flettere leggermente le gambe, portare le mani dietro la nuca e contrarre gli addominali,     senza che le mani spingano sulla testa. riferimento <<esercizi1, figura 1b>> +
-_Sinonimi_: ((abdominal crunches)), ((crunches))
 
-	varianti:::
-	* *((con peso))*: _Sinonimi_: ((Crunch with weight))
-	* *((sit up))*: Si parte dalla posizione base dell'addominale con le braccia alzate (parallele al terreno) e si esegue raccogliendo le gambe e le braccia, portandosi in posizione seduta.
-
-
-((affondo)):: ToDo +
-    _Sinonimi_: ((Lunge))
+[[bastard_burpee]]
+((bastard burpee))::
+    image:figures/exercises/bastard_burpee.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((burpee bastardo)). +
+    _Esecuzione_: Come il burpee, ma con 2 flessioni. +
+    _Effetti_: Phisico!.
 
 
+[[burpee]]
+((burpee))::
+    image:figures/exercises/burpee.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((burpeee)). +
+    _Esecuzione_: Il burpee è un esercizio full bodyfootnote:[https://it.wikipedia.org/wiki/Burpee]. Il movimento base si divide in 4 passaggi: +
+    0 Partenza in posizione eretta. +
+    1 Si passa in posizione di squat con le mani a terra. +
+    2 Si lanciano i piedi indietro tenendo le mani a terra. +
+    3 Subito si riportano i piedi in posizione di Squat. +
+    4 Si salta dalla posizione di squat verso l'alto +
+    _Effetti_: Effetti dell'esercizio.
 
-((burpee))::  Il burpee è un esercizio full bodyfootnote:[https://it.wikipedia.org/wiki/Burpee]. riferimento <<esercizi1, figura 1c>>. Il movimento base si divide in 4 passaggi:
-    . Partenza in posizione eretta
-    . Si passa in posizione di squat con le mani a terra.
-    . Si lanciano i piedi indietro tenendo le mani a terra.
-    . Subito si riportano i piedi in posizione di Squat.
-    . Si salta dalla posizione di squat verso l'alto
-
-    varianti:::
-
-    *** _((burpee bastardo))_: eseguito con due
-    flessioni dopo la fase di planc
-
-
-((Corsa sul posto))::
-    _Sinonimi_: ((High knees running))
-
-
-((Criss Cross))::
-    <<addominali, addominali>> fatti a ginocchia alte con le gambe a 90 gradi. Portare mani dietro la nuca. Si portano le ginocchia alternate al petto ruotando il busto per toccare le ginocchia con il gomito opposto. +
-    _Zone Coinvolte_ : Core.
-    Variazioni:::
-    ** _((Criss Cross to Teaser))_: 3 movimenti di criss cross e si sta per un secondo in posizione <<teaser>>
-
-
-((downdog to bridge))::
-    Da Cane faccia in giù fino a ponte faccia all'aria. +
-    Esercizio che coinvolge più fasce
-
-
-((geko))::
-    Quadrupedia, le ginocchia non toccano terra. Estendi braccio sinistro e gamba destra e viceversa.
+[[burpee_with_dumbbells]]
+((burpee with dumbbells))::
+    image:figures/exercises/burpee_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((burpee with dumbbells)), +
+    _Esecuzione_: Eseguire un burpee_with_dumbbells. +
+    _Strumenti_ : dumbbell x 2
+    _Effetti_: fa bene.
 
 
 
-[[flessione]]
-((flessione)):: riferimento <<esercizi1, figura 1d>>
-	_Sinonimi_: ((Push up))
-	Esercizio che si esegue passando dalla posizione di <<plank, plank>> flettendo e distendendo le braccia
-
-	Varianti:::
-	** *((Around the clock push up))*
-	** *((HandStand push up))*: Forget shoulder presses. If you want a killer shoulder workout, look no further than the handstand push-up. To perform the handstand push-up, assume a handstand position. Slowly bend your elbows and lower your inverted body towards the ground. In order to maintain balance, you’re going to have to call on your core and other smaller stabilizing muscles. If you can’t do a stand-alone handstand, use a wall to assist you.
-	** *((Hindu push up))*: footnote:[http://www.artofmanliness.com/2015/08/05/the-prisoner-workout/] This is a dynamic full-body movement that will build strength and flexibility in your chest, shoulders, back, hips, and triceps. +
-	Get in position by standing with your feet slightly wider than shoulder-width apart. Bend down and place your hands on the floor while keeping your arms and legs straight. You should look like an upside down human “v” with your butt being the point of the “v” and your head pointing down to the ground. +
-	To perform the Hindu push-up, you’re going to make sort of a swooping motion with your body. Bring your head down and forward by bending your elbows. When your head gets close to the ground, continue moving your torso forward by arching your back and lowering your hips. Your hips will now be near your hands. Make sure to get a good stretch in your back. Return to the starting position and repeat. +
-	** *((Cobra Push up))*: dalla posizione bassa della flessione portare il busto tutto a destra e tutto a sinistra e riflettere le braccia.
-	** *((Push up and rotation))*
-	** *((Spiderman push up))*: Push up con apertura alternata della gamba destra e della gamba sinistra nella fase di discesa. Il ginocchio della gamba divaricata cerca il gomito.
-	** *((Stella marina))*: Dalla posizione di push up bassa a mani strette passare a quella a mani e piedi larghe con tre o quattro balzelli
-
-todo eliminare immagini
-
-
-
-((hip escape))::
-    Quattro zampe, ginocchia vicine a terra. Far uscire la gamba sx dal lato destro vicina al terreno tenendo le ginocchia del dx vicine a terra.
-    _Zone coinvolte_: Core
-
-((Jumping Jack))::
-    Esercizio che coinvolge gambe e un pò tutto il resto. riferimento <<esercizi1, figura 1e>> +
-    Varianti:::
-        * con pesetti
-
-
-((Mountain climber))::
-    dalla posizione di plank portare alternativamente le ginocchia al petto.
-
-[[switch]]
-((Switch)):: Esercizio adatto al rafforzamento delle gambe. Si parte dalla posizione dell'affondo e con un balzo ci si porta nella posizione opposta.
-
-	Varianti:::
-		* _((Switch Jump))_: Come lo switch ma ogni 3 switch un jump.
-		* _((Switch Squat))_ Come lo switch ma ogni 3 switch uno squat.
-
-[[plank]]
-((Plank))::
-    ottimo esercizio per il core. Posizione della <<flessione, flessione>> con le braccia tese. riferimento <<esercizi1, figura 1f>>
-
-    varianti:::
-    *** ((plank to teaser))
-	*** ((plank walk))
-        . Partenza in posizione plank
-        . Piego il braccio destro e appoggio il gomito destro al terreno
-        . Piego nello stesso modo il sinistro.
-        . Fletto il braccio sinistro e lo riporto in appoggio sulla mano
-        . Fletto come nel punto 4 anche il destro
-        . Ricomincio dal punto 1 ma inverto il braccio che per primo scende.
-    *** ((side plank)): Come il plank ma con il busto perpendicolare al terreno sorreggendosi su un braccio od un gomito.
-
-((Plank to teaser))::
-    Esercizio dinamico che si fapassando dalla posizione di <<plank, plank sui gomiti>> a quella di <<teaser>>
-
-((Power cobra))::
-    Esercizio dinamico che comporta il passare in maniera alternata dalla posizione del cobra a quella accosciata.
-
-((Trazioni))::
-	_Sinonimi_: ((Pull up)) +
-	Esercizio di trazioni alla sbarra. Nel crossfit ha un'esecuzione con slancio che permette la realizzazione di più serie.
-
-
-((Rollata))::
-	_Sinonimi_: Roll up
-
-	Varianti:::
-
-	*** Rollata e jump: Rollata su tappetino e jump
-
-((Rollè alto)):: Quadrupedia, le ginocchia non toccano terra. Rolle su braccio sinistro e gamba destra. Ruotare fino ad avere il torso in alto e toccare il piede in alto con la mano libera.
-
-((Step up onto chair))::
-	salire e scendere da una sedia.
-
-
-
-[[superman]]
-((superman)): Da stesi pancia in giù, contrarre braccia e gambe per ottenere la posizione tipica di superman. riferimento <<esercizi1, figura 1g>>
-
-
-[[teaser]]
-((teaser)):: stare a 'V'. riferimento <<esercizi1, figura 1h>>
-
-((Triceps dip on chair)):: tricipiti da una sedia
-
-
-((Wall sit)):: schiena appoggiata al muro e stare come da seduti
-
-[[esercizi1]]
-
-.alcuni esercizi: a. ((accosciate)), b. ((addominali)), c. ((burpees)), d. ((flessioni)), e. ((jumping jacks)), f. ((plank)), g. ((superman)), h. ((teaser))
-image::figures/exercises/pagina_01.svg[]
-
-
-
-=== Con ((Bilanciere)) (((barbell)))
-
-Seguono descrizioni di esercizi da fare con il bilanciere
-
-.modello esercizio
 [[clean]]
 ((clean))::
-    image:figures/empty_3cmx5cm.svg[role=right]
-    _Sinomimi_: ((posizione del ................)), +
-    ((posizione del .........)). +
+    image:figures/exercises/clean.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((clean)). +
+    _Effetti_: Esercizio in 4 step. +
     _Esecuzione_: Istruzioni per l'esecuzione. Eventuali riferimenti. +
-    _Effetti_: Esercizio in 4 step.
     . Partenza
         ** chinati con le mani che afferrano il bilancere
         ** schiena leggermente inarcata.
@@ -237,82 +123,379 @@ Seguono descrizioni di esercizi da fare con il bilanciere
     . Abbassate o Mollate il peso in sicurezza
 
 
-((Clean Varianti))::
-        * _((clean press))_ +
-         come il clean ma si completa con un push press
-        * _((power clean))_ +
-        variazione del punto 3: ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto.
+((clean varianti))::
+    * _((clean press))_: come il clean ma si completa con un push press
 
 
-[[front squat]]
+[[crunch]]
+((crunch))::
+    image:figures/exercises/crunch.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((addominali)). +
+    _Esecuzione_: Da supini flettere leggermente le gambe, portare le mani dietro la nuca e contrarre gli addominali,     senza che le mani spingano sulla testa. +
+    _Effetti_: 6 pack.
+
+
+[[crunch_with_weight]]
+((crunch with weight))::
+    image:figures/exercises/crunch_with_weight.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((addominali con peso)). +
+    _Esecuzione_: Da supini flettere leggermente le gambe, stendersi supini ocn il peso afferrato con entrambe le mani allineato alla testa, sollevare il peso ed alzarsi. +
+    _Effetti_: 6 pack.
+
+
+
+[[criss_cross]]
+((criss_cross))::
+    image:figures/exercises/criss_cross.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione del criss cross)). +
+    _Esecuzione_: addominali fatti a ginocchia alte con le gambe a 90 gradi. Portare mani dietro la nuca. Si portano le ginocchia alternate al petto ruotando il busto per toccare le ginocchia con il gomito opposto. +
+    _Effetti_: Rinforzo Core.
+
+    ** _((Criss Cross to Teaser))_: 3 movimenti di criss cross e si sta per un secondo in posizione teaser
+
+
+[[downdog_to_bridge]]
+((downdog to bridge))::
+    image:figures/exercises/downdog_to_bridge.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((movimento da cane a faccia in giù a ponte)). +
+    _Esecuzione_: Da Cane faccia in giù fino a ponte faccia all'aria. +
+    _Effetti_: Esercizio che coinvolge più fasce.
+
+
+[[double_dumbbell]]
+((double_dumbbell))::
+    image:figures/exercises/double_dumbbell.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((double dumbbell)), +
+    _Esecuzione_: Eseguire un double dumbbell. +
+    _Strumenti_ : dumbell x 2 +
+    _Effetti_: fa bene.
+
+[[dumbbell_biceps_curl]]
+((dumbbell_biceps_curl))::
+    image:figures/exercises/dumbbell_biceps_curl.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((dumbbell_biceps_curl)), +
+    _Esecuzione_: Eseguire un dumbbell_biceps_curl. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
+[[dumbbell_front_raise]]
+((dumbbell_front_raise))::
+    image:figures/exercises/dumbbell_front_raise.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((dumbbell_front_raise)), +
+    _Esecuzione_: Eseguire un dumbbell_front_raise. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
+
+[[front_squat]]
 ((front squat))::
-    image:figures/empty_3cmx5cm.svg[role=right]
+    image:figures/exercises/front_squat.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((accosciata con il bilancere appoggiato al petto)), +
     _Esecuzione_: Accosciata con il bilanciere appoggiato al petto. +
     _Effetti_: Effetti dell'asana.
 
 
+[[geko]]
+((geko))::
+    image:figures/exercises/geko.svg[role=right, align=right,  pdfwidth=5cm] +
+	_Sinonimi_: ((posizione del geko)) +
+	_Esecuzione_: Quadrupedia, le ginocchia non toccano terra. Estendi braccio sinistro e gamba destra e viceversa. +
+	_Effetti_: Effetti dell'esercizio.
+
+
+[[high_knees]]
+((high_knees))::
+    image:figures/exercises/high_knees.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((high_knees)), +
+    _Esecuzione_: Eseguire una corsa sul posto con le ginocchia alte. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
+[[hip_escape]]
+((hip escape))::
+    image:figures/exercises/hip_escape.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((anche in fuga)). +
+    _Esecuzione_: Quattro zampe, ginocchia vicine a terra. Far uscire la gamba sx dal lato destro vicina al terreno tenendo le ginocchia del dx vicine a terra. +
+    _Effetti_: benefici al core e alla mobilitazione dell'anca.
+
+
+[[jumping_jack]]
+((jumping jack))::
+    image:figures/exercises/jumping_jack.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione del ................)), +
+    ((posizione del .........)). +
+    _Esecuzione_: Esercizio che coinvolge gambe e un pò tutto il resto. +
+    _Effetti_: Effetti dell'esercizio.
+
+[[lunge]]
+((lunge))::
+    image:figures/exercises/lunge.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((affondo)). +
+    _Esecuzione_: Eseguire un affondo. +
+    _Effetti_: Effetti dell'esercizio.
+
+
+[[mountain_climber]]
+((mountain climber))::
+    image:figures/exercises/mountain_climber.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((arrampicatore)). +
+    _Strumenti_ : nessuno +
+    _Esecuzione_: dalla posizione di plank portare alternativamente le ginocchia al petto. +
+    _Effetti_: rinforzo del core.
+
+
+[[plank]]
+((plank))::
+    image:figures/exercises/plank.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione a V)). +
+    _Esecuzione_: Posizione della flessione con le braccia tese. +
+    _Strumenti_ : nessuno
+    _Effetti_: ottimo esercizio per il core.
+    varianti:::
+	*** ((plank walk))
+        . Partenza in posizione plank
+        . Piego il braccio destro e appoggio il gomito destro al terreno
+        . Piego nello stesso modo il sinistro.
+        . Fletto il braccio sinistro e lo riporto in appoggio sulla mano
+        . Fletto come nel punto 4 anche il destro
+        . Ricomincio dal punto 1 ma inverto il braccio che per primo scende.
+    *** ((side plank)): Come il plank ma con il busto perpendicolare al terreno sorreggendosi su un braccio od un gomito.
+
+
+[[plank_to_teaser]]
+((plank to teaser))::
+    image:figures/exercises/plank_to_teaser.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione a V)). +
+    _Esecuzione_: Esercizio dinamico che si fa passando dalla posizione di <<plank, plank sui gomiti>> a quella di teasef +
+    _Strumenti_ : nessuno
+    _Effetti_: Fa benissimo.
+
+
+[[prisoner_squat]]
+((prisoner_squat))::
+    image:figures/exercises/prisoner_squat.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((prisoner_squat)), +
+    _Esecuzione_: Eseguire un prisoner_squat. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
+
+[[power_clean]]
+((power_clean))::
+    image:figures/exercises/power_clean.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((power_clean)), +
+    _Esecuzione_: Eseguire un clean, ma con variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto. +
+    _Strumenti_ : bilanciere
+    _Effetti_: fa bene.
+
+
+[[power_cobra]]
+((power cobra))::
+    image:figures/exercises/power_cobra.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione del cobra dinamico. +
+    _Esecuzione_: Esercizio dinamico che comporta il passare in maniera alternata dalla posizione del cobra a quella accosciata. +
+    _Effetti_: Rinforza Core e Spalle.
+
+
+
+[[pull_up]]
+((pull up))::
+    image:figures/exercises/pull_up.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((trazioni)). +
+    _Esecuzione_: Esercizio di trazioni alla sbarra. Nel crossfit ha un'esecuzione con slancio che permette la realizzazione di più serie. +
+    _Effetti_: Riforzo spalle, resistenza alla presa, core.
+
+
+[[push_up]]
+((push up))::
+    image:figures/exercises/push_up.svg[role=right, align=right,  pdfwidth=5cm] +
+	_Sinonimi_: ((flessione)) +
+	_Esecuzione_: Esercizio che si esegue partendo dalla posizione di plank, flettendo e distendendo le braccia +
+	_Effetti_: Pettorali.
+
+	Varianti:::
+	** *((Around the clock push up))*
+	** *((HandStand push up))*: Forget shoulder presses. If you want a killer shoulder workout, look no further than the handstand push-up. To perform the handstand push-up, assume a handstand position. Slowly bend your elbows and lower your inverted body towards the ground. In order to maintain balance, you’re going to have to call on your core and other smaller stabilizing muscles. If you can’t do a stand-alone handstand, use a wall to assist you.
+	** *((Hindu push up))*: footnote:[http://www.artofmanliness.com/2015/08/05/the-prisoner-workout/] This is a dynamic full-body movement that will build strength and flexibility in your chest, shoulders, back, hips, and triceps. +
+	Get in position by standing with your feet slightly wider than shoulder-width apart. Bend down and place your hands on the floor while keeping your arms and legs straight. You should look like an upside down human "v" with your butt being the point of the "v" and your head pointing down to the ground. +
+	To perform the Hindu push-up, you’re going to make sort of a swooping motion with your body. Bring your head down and forward by bending your elbows. When your head gets close to the ground, continue moving your torso forward by arching your back and lowering your hips. Your hips will now be near your hands. Make sure to get a good stretch in your back. Return to the starting position and repeat. +
+	** *((Cobra Push up))*: dalla posizione bassa della flessione portare il busto tutto a destra e tutto a sinistra e riflettere le braccia.
+	** *((Push up and rotation))*
+	** *((Spiderman push up))*: Push up con apertura alternata della gamba destra e della gamba sinistra nella fase di discesa. Il ginocchio della gamba divaricata cerca il gomito.
+	** *((Stella marina))*: Dalla posizione di push up bassa a mani strette passare a quella a mani e piedi larghe con tre o quattro balzelli
+
+
+
 [[renegade]]
 ((renegade))::
-    image:figures/empty_3cmx5cm.svg[role=right]
+    image:figures/exercises/renegade.svg[role=right, align=right,  pdfwidth=5cm] +
 	_Sinonimi_: ((remata in plank)) +
-    _Esecuzione_: <<plank, plank>> remando con due pesi +
+    _Esecuzione_: plank remando con due pesi +
+    _Strumenti_ : dumbbells
     _Effetti_: Muscoli.
+
+
+[[reverse_crunch]]
+((reverse crunch))::
+    image:figures/exercises/reverse_crunch.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((addominale inverso)). +
+    _Esecuzione_: Eseguire un addominale inverso. +
+    _Effetti_: Resistenza, core.
+
+
+((rollata))::
+	_Sinonimi_: Roll up
+
+	Varianti:::
+
+	*** Rollata e jump: Rollata su tappetino e jump
+
+((rollè alto)):: Quadrupedia, le ginocchia non toccano terra. Rolle su braccio sinistro e gamba destra. Ruotare fino ad avere il torso in alto e toccare il piede in alto con la mano libera.
+
+
+[[run_in_place]]
+((run in place))::
+    image:figures/exercises/high_knees.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((corsa sul posto)). +
+    _Esecuzione_: Eseguire una corsa sul posto. +
+    _Effetti_: Resistenza.
+
+
+
+[[single_up]]
+((single up))::
+    image:figures/exercises/single_up.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((salto della corda)) +
+    _Strumenti_ : corda
+    _Esecuzione_: Saltare la corda. +
+    _Effetti_: agilità, polpacci.
+
+
+[[sit_up]]
+((sit up))::
+    image:figures/exercises/sit_up.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((addominale da steso a seduto)). +
+    _Esecuzione_: Si parte dalla posizione base dell'addominale con le braccia alzate e gambe stese (parallele al terreno) e si esegue raccogliendo le gambe e le braccia, portandosi in posizione seduta. +
+    _Effetti_: 6 pack.
+
+
+[[squat_and_press_with_dumbbells]]
+((squat and press with dumbbells))::
+    image:figures/exercises/squat_and_press_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((squat_and_press_with_dumbbells)), +
+    _Esecuzione_: Eseguire un squat_and_press_with_dumbbells. +
+    _Strumenti_ : dumbbells
+    _Effetti_: fa bene.
+
+
+
+[[switch]]
+((switch)):: Esercizio adatto al rafforzamento delle gambe. Si parte dalla posizione dell'affondo e con un balzo ci si porta nella posizione opposta.
+
+	Varianti:::
+		* _((Switch Jump))_: Come lo switch ma ogni 3 switch un jump.
+		* _((Switch Squat))_ Come lo switch ma ogni 3 switch uno squat.
+
+
+[[step_up_onto_chair]]
+((step up onto chair))::
+    image:figures/exercises/step_up_onto_chair.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((salita e discesa da una sedia)). +
+    _Esecuzione_: salire e scendere da una sedia. +
+    _Strumenti_ : sedia  +
+    _Effetti_: Effetti dell'esercizio.
+
+
+[[superman]]
+((superman))::
+    image:figures/exercises/superman.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione di superman)). +
+    _Esecuzione_: Da stesi pancia in giù, contrarre braccia e gambe per ottenere la posizione tipica di superman.  +
+    _Strumenti_ : nessuno  +
+    _Effetti_: Rinforza core e dorsali.
+
+
+
+[[teaser]]
+((teaser))::
+    image:figures/exercises/teaser.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione a V)). +
+    _Esecuzione_: da seduti, rimanere in equilibrio sul sedere tenendo la posine a 'V'. +
+    _Effetti_: Effetti dell'esercizio.
+
+[[triceps_dip_on_chair]]
+((triceps dip on chair))::
+    image:figures/exercises/triceps_dip_on_chair.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((flessioni sui tricipiti con una sedia)). +
+    _Esecuzione_: fare i tricipiti appoggiandosi ad una sedia. +
+    _Strumenti_ : sedia +
+    _Effetti_: Rinforza i tricipiti.
+
+[[triceps_press]]
+((triceps_press))::
+    image:figures/exercises/triceps_press.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((triceps_press)), +
+    _Esecuzione_: Eseguire un triceps_press. +
+    _Strumenti_ : nessuno +
+    _Effetti_: fa bene.
+
+
+[[tuck_jump]]
+((tuck jump))::
+    image:figures/exercises/tuck_jump.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((tuck jump)), +
+    _Esecuzione_: Eseguire un tuck jump. +
+    _Strumenti_ : nessuno +
+    _Effetti_: fa bene.
+
+
+[[wall_sit]]
+((wall sit))::
+    image:figures/exercises/wall_sit.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((seduta con schiena al muro)) +
+    _Esecuzione_: schiena appoggiata al muro, femori paralleli al terreno. +
+    _Strumenti_ : muro +
+    _Effetti_: benefici quadricipiti.
+
+
+
+
+Mancano ToDo
+ jumping jack x 10, tuck jumps x 10)
+(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
+1 minute stop
+AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
 
 .modello esercizio
 [[nome]]
 ((nome))::
-    image:figures/empty_3cmx5cm.svg[role=right]
-    _Sinomimi_: ((posizione del ................)), +
-    ((posizione del .........)). +
-    _Esecuzione_: Istruzioni per l'esecuzione. Eventuali riferimenti. +
-    _Effetti_: Effetti dell'asana.
+    image:figures/exercises/nome.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((nome)), +
+    _Esecuzione_: Eseguire un nome. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
 
 
 
-.Esercizi aggiuntivi:
-|===
-| Corsa sul posto | Lunge
-| Mountain Climber
-| Side Plank
-| Step up into a chair
-| Triceps dips on chair
-| Wallsit
-|===
+=== Sequenze
 
+==== Circuito MMA
 
-.Push Ups
-|===
-| Push UPs
-| Around the Clock push up
-| Handstand push up
-|===
+    Durata: 30'
+    Necessari: barra, corda, dumbbell x 2
 
-
-
-[[bilancere]]
-.((bilanciere))
-|===
-| Clean
-| Front Squat
-| Hindu Push ups
-|===
-
-[[kettlebell]]
-.((kettlebell))
-|===
-| Renegade
-|===
-
-.((manubri))
-|===
-| Renegade
-|===
-
-
-
+    PAUSE 30
+    AMRAP 300(push ups x 20, dips X 10, pullups x 5, single up x 50)
+    PAUSE 60
+    AMRAP 300(double dumbbell x 10, burpees with dumbbell x 10, burpees, x 10)
+    PAUSE 60
+    AMRAP 300(high knees x 10, mountain climber x 10, jumping jack x 10, tuck jumps x 10)
+    PAUSE 60
+    AMRAP(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
+    PAUSE 60
+    AMRAP 300(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
 
@@ -380,14 +563,31 @@ For rookies 7-5-3
 -   Thruster 45 kg
 -   Pull-ups
 
-===== Sidio 150929
+===== Sidio
+
+.150929
 
 10 minuti snatch per 2 ripetizioni
 
 5 reps:
-* 20 Sit up
-* 10 Deadlift
-* 5 Weighted toes to bar
+     20 Sit up
+     10 Deadlift
+     5 Weighted toes to bar
+
+.16052016 full body
+
+Buy in X3:
+
+    10 indu push up
+    10 reverse crunch
+    10 air squat
+
+Then:
+
+    Every 4' for 20':
+    5 handstand push up
+    10 toes to bar
+    20 alternate pistol squat
 
 
 === Tipologie d'allenamento
@@ -406,6 +606,7 @@ Amrap 4X5'::
  ** Core
   *** *10* Wall Ball
   *** *10* Half burpees
+
 
 
 
@@ -938,7 +1139,7 @@ Ecco un elenco delle (((posizioni yoga))) più comuni. Sono riassunte con il seg
 === Sequenze Yoga
 
 .Rilassamento footnote:[vajrasana 120, shashankasana 180, adho_mukha_svanasana 60, uttanasana 120, baddha_konasana 60, upavishta_konasana 120, janu_sirsasana 60x2, paschimottanasana 240, shavasana 60, halasana 30, sarvangasana 60, utthita_sarvangasana 60x2, karnapidasana 30, halasana 30, shavasana 30, supta_baddha_konasana 300, shavasana 300]
-[header=yes, cols="^1,2,1"]
+[cols="^1,2,1"]
 |===
 | Posizione | Descrizione | Secondi
 | image:figures/asana_yoga/vajrasana.svg[role=right, pdfwidth=5cm] | Inginocchiarsi a terra sedendosi sui piedi, appoggiati con il dorso a terra, e mantenendo la spina dritta e verticale con il collo allineato con essa. Le mani saranno appoggiate sulle ginocchia. I piedi possono rimanere paralleli e appoggiati a terra sul dorso. | 120
@@ -962,11 +1163,11 @@ Ecco un elenco delle (((posizioni yoga))) più comuni. Sono riassunte con il seg
 | image:figures/asana_yoga/shavasana.svg[role=right, pdfwidth=5cm] | Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative. | 300
 |===
 
-https://youtu.be/XeLiB6aG5IE
+https://youtu.be/F06yrI5Hxl4
 
 
 .Saluto al sole
-[header=yes, cols="^1,2"]
+[cols="^1,2"]
 |===
 | image:figures/asana_yoga/pranamasana.svg[] | posizione della preghiera: ((Pranamasana)) espirare con i piedi uniti e le mani giunte davanti al petto.
 | image:figures/asana_yoga/hasta_uttanasana.svg[] | posizione delle mani sollevate: ((Hasta uttanasana)) inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.
@@ -1365,7 +1566,7 @@ Plank , 35,10
 
 [[adduttori]]
 ((adduttori))::
-    image:figures/stretching/adduttori.png[role=right]
+    image:figures/stretching/adduttori.svg[role=right, align=right,  pdfwidth=5cm]
     _Esecuzione_: Vedere figura. +
     _Effetti_: Fa bene.
 
@@ -1434,31 +1635,34 @@ Plank , 35,10
 
 
 .Post Running footnote:[arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2]
-[header=yes, cols="^1,2,1"]
+[cols="^1,2,1"]
 |===
 | Posizione | Descrizione | Secondi
-| image:/figures/stretching/arco_plantare.png[role=right, pdfwidth=5cm] | arco plantare | 20
-| image:/figures/stretching/arco_plantare.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/gambe_posteriore.png[role=right, pdfwidth=5cm] | gambe posteriore | 20
-| image:/figures/stretching/gambe_posteriore.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/popliteo.png[role=right, pdfwidth=5cm] | popliteo | 20
-| image:/figures/stretching/popliteo.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/adduttori.png[role=right, pdfwidth=5cm] | adduttori | 20
-| image:/figures/stretching/adduttori.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/quadricipiti.png[role=right, pdfwidth=5cm] | quadricipiti | 20
-| image:/figures/stretching/quadricipiti.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/anche.png[role=right, pdfwidth=5cm] | anche | 20
-| image:/figures/stretching/anche.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/base_tronco_e_glutei.png[role=right, pdfwidth=5cm] | base tronco e glutei | 20
-| image:/figures/stretching/dorso.png[role=right, pdfwidth=5cm] | dorso | 20
-| image:/figures/stretching/collo.png[role=right, pdfwidth=5cm] | collo | 20
-| image:/figures/stretching/pettorali.png[role=right, pdfwidth=5cm] | pettorali | 20
-| image:/figures/stretching/pettorali.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/spalle.png[role=right, pdfwidth=5cm] | spalle | 20
-| image:/figures/stretching/spalle.png[role=right, pdfwidth=5cm] | altro lato | 20
-| image:/figures/stretching/braccia.png[role=right, pdfwidth=5cm] | braccia | 20
-| image:/figures/stretching/braccia.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/arco_plantare.png[role=right, pdfwidth=5cm] | arco plantare | 20
+| image:figures/stretching/arco_plantare.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/gambe_posteriore.png[role=right, pdfwidth=5cm] | gambe posteriore | 20
+| image:figures/stretching/gambe_posteriore.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/popliteo.png[role=right, pdfwidth=5cm] | popliteo | 20
+| image:figures/stretching/popliteo.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/adduttori.png[role=right, pdfwidth=5cm] | adduttori | 20
+| image:figures/stretching/adduttori.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/quadricipiti.png[role=right, pdfwidth=5cm] | quadricipiti | 20
+| image:figures/stretching/quadricipiti.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/anche.png[role=right, pdfwidth=5cm] | anche | 20
+| image:figures/stretching/anche.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/base_tronco_e_glutei.png[role=right, pdfwidth=5cm] | base tronco e glutei | 20
+| image:figures/stretching/dorso.png[role=right, pdfwidth=5cm] | dorso | 20
+| image:figures/stretching/collo.png[role=right, pdfwidth=5cm] | collo | 20
+| image:figures/stretching/pettorali.png[role=right, pdfwidth=5cm] | pettorali | 20
+| image:figures/stretching/pettorali.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/spalle.png[role=right, pdfwidth=5cm] | spalle | 20
+| image:figures/stretching/spalle.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:figures/stretching/braccia.png[role=right, pdfwidth=5cm] | braccia | 20
+| image:figures/stretching/braccia.png[role=right, pdfwidth=5cm] | altro lato | 20
 |===
+
+Full video su https://youtu.be/mwR5B9FBL8s[YouTube]
+
 
 
 
@@ -1779,9 +1983,6 @@ Rules for a good negotiation:
 12. Avoid making threats in a negotiation; they are almost always
     counter-productive
 
-=== Tecniche per negoziare con i bimbi
-
-
 
 
 == Vendita
@@ -1826,6 +2027,9 @@ Postura corretta respiro giusto lingua sotto l'arcata dentaria inferiore
 	E CICCI UAUA
 	coro: e cicci uaua
 
+:toc: merge
+:toclevels: 4
+
 == Musica
 
 
@@ -1841,12 +2045,11 @@ I V vi IV
 |===
 I, ii, iii, IV, V, vi, vii
 C, D, E, F, G, A, B
-FL, G, A, Bb, C, D, E
+F, G, A, Bb, C, D, E
 G, A, B, C, D, E, F#
 A, B, C#, D, E, F#, G#
 D, E, F#, G, A, B, C#
 |===
-
 
 
 === ((Ukulele))
@@ -1869,6 +2072,13 @@ Fm (Fa minore) | 1·0·1·3 | 5·5·4·3 | 5·5·8·8 |
 Gm (Sol minore) | 0·2·3·1 | 0·7·6·5 | 0·7·6·10 |
 Am (La minore) | 2·0·0·0 | 2·4·5·0 (Powerchord) | 7·9·8·7 |
 Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
+C7 (Do7) | 0·0·0·1 |  | |
+D7 (Re7) | 2·2·2·3 |  | |
+E7 (Mi7) | 4·4·4·2 |  | |
+F7 (Fa7) | 2·0·1·0 |  | |
+G7 (Sol7) | 0·2·3·2 | | |
+A7 (La7) | 2·1·0·0 |  | |
+B7 (Si7) |  4·3·2·2 | | |
 |=========
 
 ==== Esercizi Strumming
@@ -1882,6 +2092,7 @@ Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
 | . | 1/2 di battuta senza gesti | |
 |====
 
+[[strumming_44]]
 
 .4/4
 |====
@@ -1895,7 +2106,7 @@ Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
 
 .3/4
 |====
-| u | u d | | ud
+| u | u d | ud
 |====
 
 ==== Arpeggi
@@ -1913,30 +2124,53 @@ Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
 | base  | 1 2 3 4
 | alternato | 1 3 2 4
 | mike1 | 1 3 4 3 - 2 3 4 3
+| scarlborough | 1 2 3 4 3 2
 |====
 
 === Songs
 
-((A children's lullaby)) footnote:[https://youtu.be/XyfPJ6JNlfU?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I V7, Tonalità C +
+((a children's lullaby)) footnote:[https://youtu.be/XyfPJ6JNlfU?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I V7, Tonalità C +
 4/4 Pattern C G7 C G7
 
-((Amazing Grace)) footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I I7 IV V7, Tonalità C +
+((amazing grace)) footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I I7 IV V7, Tonalità C +
 4/4 pattern C C7 F C/C7 | F C C G7/C
+
+((banana boat song)):: footnote:[https://www.youtube.com/watch?v=E9RsJatiXm4] Progressione I, V7, I rit I IV I +
+Tonalità C +
+4/4 <<strumming_44, calypso>> C G7 C, C F C +
+
+((Blues improvvisation)):: Progressione I, IV, V +
+Tonalità D7 +
+4/4 pattern D7x16 G7x8 D7x8 A7x4 G7x4 +
+Per assolo: -, 2 5, 3 5, 3 5
 
 ((Fra' Martino)):: *Note* C
 
 ((London Bridge)):: Progressione I V7, Tonalità C +
 4/4 pattern C C G7 C
 
-You're my sunshine footnote:[https://youtu.be/dnA3T8uuuoY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: da fare
+((yellow submarine)):: Progressione I7 III VI I7, Tonalità G7 +
+4/4 pattern 4X (G7  C F G7) 2X (C G7 G7 C)
+
+((You're my sunshine)):: Progressione I, I7, IV rit I V7 I +
+4/4 swing C C7 F C rit. C G7 C
+
+((over the rainbow)):: Progressione I IIIm IV I IV III7 VIm IV, Tonalità C +
+4/4 pattern 4X (C Em F C F E7 Am/F) 2X (C G Am F)
+
 
 ((Se sei felice e tu lo sai))footnote:[https://youtu.be/elTDFX9r_9k?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: 4/4 pattern:  G D7 D7 G | C G D7 G
+
+((The lion sleeps tonight)):: Progressione I IV I V, Tonalità G
+4/4 pattern G C G D
 
 
 .Risorse utili da cui ho tratto le info di questo capitolo
 * https://www.youtube.com/user/MusicTeacher2010/
 *
-
+:toc:
+:toc-placement: preambe
+:toc-level: 4
 
 == Carisma
 
@@ -2171,6 +2405,39 @@ Elementi fondamentali: footnoteref:[ToDoMen]
 2.  Fai delle pause.
 3.  Fai calare l'intonazione.
 4.  Respira con l'addome
+
+=== Potere della voce HAIL
+
+preso da https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen?language=it[qui]
+
+
+H:: onesty
+A:: utenticità
+I:: ntegrità
+L:: ove
+
+Toolbox:
+
+registro:: parlare col petto
+timbro:: ricche, calde, profonde
+prosody:: metalinguaggio evitare la monotonia
+pace:: ritmo variabile
+silenzio:: fondamentale
+volume:: modulare pure questo
+
+Warmup
+
+scaldare la voce:
+
+- Braccia su e mollarle con ohhhh
+- bom bom bom
+- brbrbrbrbrbrbr
+- la la la la
+- rrrrrrrrr
+- weeeeeeeeew (dall tono basso al tono alto)
+
+
+
 
 === Disposizione dei posti carismatica
 
@@ -2605,7 +2872,11 @@ Blablablabla
 
 Blablablabla
 
-==== Dettagli per creazione EPUB
+==== Dettagli per creazione EPUB / GITBOOK
+
+    Best Sizes      Big	        Small
+    File	        cover.jpg	    cover_small.jpg
+    Size(in pixels)	1800x2360	200x262
 
 ===== Copertina
 
@@ -2767,21 +3038,25 @@ Funziona con gli indici
 
 ==== ((FFMPEG)) ((AVCONV))
 
-===== Eliminare una traccia audio footnote:[fonte: http://unix.stackexchange.com/questions/6402/how-to-remove-an-audio-track-from-an-mp4-video-file]
+===== Cambiare SAMPLE rate audio
 
-First run
+    ffmpeg -i gesso.wav -ar 24000 gesso.mp3
 
-    ffmpeg -i file.mp4
 
-    Stream #0.0: Video: mpeg4, yuv420p, 720x304 [PAR 1:1 DAR 45:19], 23.98 tbr, 23.98 tbn, 23.98 tbc
-    Stream #0.1: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
-    Stream #0.2: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
+===== Codec H264
 
-Per togliere la prima traccia audio
+    ffmpeg -i input -c:v libx264 -crf 23 -preset medium -c:a libfdk_aac -vbr 4 movflags +faststart -vf scale=-2:720,format=yuv420p output.mp4
+-crf: Quality. Range is logarithmic 0 (lossless) to 51 (worst quality). Default is 23. Subjective sane range is ~18-28 or so. Use the highest value that still gives you an acceptable quality. If you are re-encoding impractically large inputs to upload to YouTube or similar then try a value of 18 since these video services will re-encode anyway.
+-preset: Encoding speed. A slower preset provides better compression (quality per file size) but is slower. Use the slowest that you have patience for: ultrafast, superfast, veryfast, faster, fast, medium (the default), slow, slower, veryslow.
+-movflags +faststart: Allows video to playback before it is completely downloaded in the case of progressive download viewing. Useful if you are hosting the video, otherwise superfluous if uploading to a video service like YouTube.
+-vf scale=-2:720,format=yuv420p: A filtergraph using scale and format video filters. Scale to 720 pixels in height, and automatically choose width that will preserve aspect, and then make sure the pixel format is compatible with dumb players.
+-vbr 4: Audio quality for libfdk_aac AAC encoder. Range is 1-5. Higher value is higher quality.
 
-    avconv -i file.mp4 -map 0:0 -map 0:2 -acodec copy -vcodec copy new_file.mp4
+===== Concatenare più files
 
-Per convertire dal formato ((yuv))
+    avconv -i filename_%d.flv -c copy output.flv
+
+===== Convertire dal formato ((yuv))
 
     avconv -f rawvideo -pix_fmt yuv420p -s 1280x720 -i test4.yuv -i 01_mic_mmp_nel_cast_felici.ogg' test4.avi
 
@@ -2797,18 +3072,24 @@ Per più immagini
 
 Senza _-start_number 8_ parte di default da 0
 
-===== Codec H264
+===== Eliminare la prima traccia audio
 
-    ffmpeg -i input -c:v libx264 -crf 23 -preset medium -c:a libfdk_aac -vbr 4 movflags +faststart -vf scale=-2:720,format=yuv420p output.mp4
--crf: Quality. Range is logarithmic 0 (lossless) to 51 (worst quality). Default is 23. Subjective sane range is ~18-28 or so. Use the highest value that still gives you an acceptable quality. If you are re-encoding impractically large inputs to upload to YouTube or similar then try a value of 18 since these video services will re-encode anyway.
--preset: Encoding speed. A slower preset provides better compression (quality per file size) but is slower. Use the slowest that you have patience for: ultrafast, superfast, veryfast, faster, fast, medium (the default), slow, slower, veryslow.
--movflags +faststart: Allows video to playback before it is completely downloaded in the case of progressive download viewing. Useful if you are hosting the video, otherwise superfluous if uploading to a video service like YouTube.
--vf scale=-2:720,format=yuv420p: A filtergraph using scale and format video filters. Scale to 720 pixels in height, and automatically choose width that will preserve aspect, and then make sure the pixel format is compatible with dumb players.
--vbr 4: Audio quality for libfdk_aac AAC encoder. Range is 1-5. Higher value is higher quality.
+prima lancia
 
-===== Concatenare più files
+    ffmpeg -i file.mp4
 
-    avconv -i filename_%d.flv -c copy output.flv
+    Stream #0.0: Video: mpeg4, yuv420p, 720x304 [PAR 1:1 DAR 45:19], 23.98 tbr, 23.98 tbn, 23.98 tbc
+    Stream #0.1: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
+    Stream #0.2: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
+
+poi
+
+    avconv -i file.mp4 -map 0:0 -map 0:2 -acodec copy -vcodec copy new_file.mp4
+
+===== Incorporare file srt nel video
+
+avconv -i nome_film.mp4 -f srt -i nome_film.srt -c:v copy -c:a copy -c:s mov_text nome_film_subtitles.mp4
+
 
 ==== ((Blender))
 
@@ -2853,14 +3134,18 @@ e premere *i* (insert key frame)
 
 ===== Video editor
 
-    -FX stip color - nero
-    - *K* taglia la striscia nel punto selezionato
+    - FX stip color - nero
+    - *K* taglia la striscia nel punto selezionato in modo soft SHIFT-K taglio definitivo
+    - nella schermata timeline settare AV-sync, audio scrub, frame drop
 
-Per esportare
+Settare Blender
 
     Impostare risoluzione
     Controllare il range
     Selezionare il fule di output
+    impostare nelle user preferenses
+        - memory cache limit circa 60% della RAM
+    MAI USARE IL CANALE 0 (preview) PER LE IMPORTAZIONI!
 
 
 ==== ((Git))
@@ -2869,6 +3154,8 @@ Per esportare
 
     git config --global credential.helper cache
     git config --global credential.helper 'cache --timeout=360000'
+    # Set the cache to timeout after 1 hour (setting is in seconds), 100h
+
 
 installare repository locale
 
@@ -2886,7 +3173,21 @@ installare repository locale
 
 Convertire un psd mmyk in rgb per editing con GIMP
 
-convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png
+    convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png
+
+Scalare gli svg
+
+    convert +antialias -density 1000 nomefile.svg -resize 1920x1080 -background white -gravity center -extent 1920x1080 nomefile.jpg
+
+
+in batch
+
+   mogrify -resize 300x200 -gravity center -extent 300x200
+
+creare un mosaico d'immagini
+
+    montage -mode concatenate -tile 8x9 *.png out.png
+
 
 ==== ((Inkscape))
 
@@ -2928,7 +3229,34 @@ Mergia più files con 2 secondi di pausa
 
 
 
-== Comandi Linux
+:toc:
+:toc: merge
+:toclevels: 4
+
+== Appunti Linux
+
+=== ((ADB))
+
+
+Questa probabilmente non serve negli ubuntu più nuovi
+
+    sudo add-apt-repository ppa:phablet-team/tools && sudo apt-get update
+
+Questa installa ADB e fastboot
+
+    sudo apt-get install android-tools-adb android-tools-fastboot
+    apt-get install mtpfs mtp-tools
+
+
+
+
+
+=== ((Blender))
+
+    sudo apt-get install libsdl1.2debian
+    sudo add-apt-repository ppa:thomas-schiex/blender
+    sudo apt-get update
+    sudo apt-get install blender
 
 === Cambio tastiera
 
@@ -2978,6 +3306,46 @@ per riavviare scheda rete (da testare)
 
     rfkill list all
     rfkill unblock all
+
+[[dlna]]
+=== ((DLNA))
+
+    sudo apt-get install minidlna
+    sudo cp /etc/minidlna.conf /etc/backup_minidlna.conf
+    sudo nano /etc/minidlna.conf
+
+In the configuration file, add
+
+    db_dir=/home/pi/minidlna
+    media_dir=/media/VERBATIM
+            prima era
+            media_dir=V,/media/VERBATIM
+            media_dir=P,/media/VERBATIM
+    log_dir=/var/log
+
+Add as many media directories as you need. Change names of drives as needed.
+
+    mkdir /home/pi/minidlna
+    chmod 777 /home/pi/minidlna
+    sudo service minidlna force-reload
+    cat /var/log/minidlna.log
+
+Per testare i files:
+
+http://INDIRIZZO-IP-SERVER:8200
+
+
+=== Installazioni Linux
+
+- ((AVCONV)): Libreria per manipolare video +
+    sudo apt-get install libav-tools
+- ((DCROW)): Libreria per gestire immagini RAW +
+    sudo apt-get install dcraw
+- ((EXIF TOOLS)):  Script Perl per gestire EXIF +
+    sudo apt-get install libimage-exiftool-perl
+- ((Unison)): best sync app
+    sudo apt-get install unison
+
 
 
 === ((Mappare disco rete in Linux))
@@ -3030,6 +3398,18 @@ Editare il file di configurazione e montare il tutto
     //192.168.1.55/ext_hd/ /media/raspberry_disk cifs credentials=/home/maurizio/.smbcredentials,noexec 0 0
     sudo mount -a
 
+=== ((Loopback Suono Linux))
+
+    sudo apt-get install jackd && sudo apt-get install fluidsynth qjackctl
+
+=== ((Midi))
+
+    sudo apt-get install fluidsynth
+
+Al termine dell’installazione apri Qsynth dal menù Applicazioni -> Audio e Video -> Qsynth.
+Dall’interfaccia del programma seleziona il pulsante Setup e nella scheda Soundfonts fai click su Open per selezionare il file dei fonts in /usr/share/sounds/sf2/FluidR3_GM.sf2 (quello predefinito che viene visualizzato) e conferma il restart del motore.
+
+    sudo apt-get install timidity timidity-interfaces-extra
 
 === Montare usb esterna
 
@@ -3057,7 +3437,16 @@ Editare il file di configurazione e montare il tutto
     sudo mkdir /media/DRIVE_NAME_*
     sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda5 /media/sambashare/
 
-=== SSH
+
+===  ((mkvmerge)) srt merger
+
+Per incorporare file srt in file matrioska
+
+    apt-get install mkvtoolnix
+    mkvmerge -o output.mkv video.mp4 subtitles.srt
+
+
+=== ((SSH))
 
 .((Lanciare un comando e uscire senza interroperlo))
 ---------
@@ -3070,69 +3459,6 @@ $ logout
 <1> premere crtl+Z
 
 
-=== Trovare l'ip
-
-sudo ifconfig
-
-
-=== ((Youtube-dl))
-
-youtube-dl --extract-audio  https://youtu.be/YDx09vPA0yw
-
-
-=== VIM
-
-Sostituzione su tutti i buffer::
-	:bufdo %s/trovaquesto/sostituisci con qesto/g | w
-
-
-=== Istallazioni Linux
-
-- ((AVCONV)): Libreria per manipolare video +
-    sudo apt-get install libav-tools
-- ((DCROW)): Libreria per gestire immagini RAW +
-    sudo apt-get install dcraw
-- ((EXIF TOOLS)):  Script Perl per gestire EXIF +
-    sudo apt-get install libimage-exiftool-perl
-- ((Unison)): best sync app
-    sudo apt-get install unison
-
-
-
-=== ((Blender))
-
-    sudo apt-get install libsdl1.2debian
-    sudo add-apt-repository ppa:thomas-schiex/blender
-    sudo apt-get update
-    sudo apt-get install blender
-
-[[dlna]]
-=== ((DLNA))
-
-    sudo apt-get install minidlna
-    sudo cp /etc/minidlna.conf /etc/backup_minidlna.conf
-    sudo nano /etc/minidlna.conf
-
-In the configuration file, add
-
-    db_dir=/home/pi/minidlna
-    media_dir=/media/VERBATIM
-            prima era
-            media_dir=V,/media/VERBATIM
-            media_dir=P,/media/VERBATIM
-    log_dir=/var/log
-
-Add as many media directories as you need. Change names of drives as needed.
-
-    mkdir /home/pi/minidlna
-    chmod 777 /home/pi/minidlna
-    sudo service minidlna force-reload
-    cat /var/log/minidlna.log
-
-Per testare i files:
-
-http://INDIRIZZO-IP-SERVER:8200
-
 
 === ((Simple Google TTS))
 
@@ -3142,26 +3468,7 @@ http://INDIRIZZO-IP-SERVER:8200
 
     ./simple-google-tts -h #aiuto
 
-=== ((Midi))
 
-    sudo apt-get install fluidsynth
-
-Al termine dell’installazione apri Qsynth dal menù Applicazioni -> Audio e Video -> Qsynth.
-Dall’interfaccia del programma seleziona il pulsante Setup e nella scheda Soundfonts fai click su Open per selezionare il file dei fonts in /usr/share/sounds/sf2/FluidR3_GM.sf2 (quello predefinito che viene visualizzato) e conferma il restart del motore.
-
-    sudo apt-get install timidity timidity-interfaces-extra
-
-=== ((Loopback Suono Linux))
-
-    sudo apt-get install jackd && sudo apt-get install fluidsynth qjackctl
-
-
-
-=== ((Xflux))
-
-programma per filtrare i colori degli schermi PC. Si trova al sito https://justgetflux.com/[qui]
-
-    ./xflux  -l 44.55 -g 11.43 -k 2500
 
 
 === ((rclone))
@@ -3191,6 +3498,30 @@ Dropbox App Secret - leave blank normally.
     rclone sync source:path dest:path
 
     rclone sync -v ~/Mao/GDrive/Fitness gb:Fitness/**
+
+=== ((rsync))footnote:[preso da http://www.mrwebmaster.it/linux/rsync-sincronizzare-file-cartelle_11674.html]
+
+==== installazione
+
+    apt-get install rsync
+
+
+    rsync -avz /path/to/source /path/to/destination
+
+Di seguito pezzi da http://lugscandiano.org/index.php/Backup_con_rsync_via_ssh[questo] interessante sito
+
+    rsync -avz -e ssh /this/dir/ remoteuser@remotehost:/remote/dir
+
+Vediamo nel dettaglio le opzioni utilizzate:
+
+a:: modalità "archivio" (copia ricorsivamente tutti i file, preservando permessi, timestamp, link simbolici, owner e gruppi);
+u:: Se nella cartella di destinazione si hanno dei file più recenti rispetto alla cartella sorgente e li si vuole preservare si dovrà aggiungere il comando
+v:: modalità "verbose", offre un output a video circa il risultato dell'elaborazione;
+z:: comprime i dati usando l'algoritmo gzip;
+--delete:: Eliminare i file non presenti nella posizione sorgente
+--rsh:: --rsh="ssh -p PORTA" user@host:/path/to/source /path/to/destination
+
+
 
 [[samba]]
 === samba
@@ -3274,6 +3605,31 @@ sudo mount -a <2>
     //192.168.0.11/sda5 /media/sambashare cifs defaults, credentials=/root/smb/credentials,sec=ntlm,rw,iocharset=utf8,uid=1000,gid=1000 0 0 +
     '1000' è il primo utente, meglio mettere 'pi'
 <2> rimonta fstab. così si può testare che vada tutto bene.
+
+
+=== Smartmontools
+
+[questa fonte]
+
+installare:
+
+    aptitude install smartmontools
+
+richiesta informazioni:
+
+    smartctl --info /dev/sda
+
+stato HD:
+
+    smartctl -s on -a /dev/sda
+
+==== monitoraggio live
+
+Editare /etc/default/smartmontools
+
+    start_smartd=yes
+    smartd_opts="--interval=60200"
+
 
 
 
@@ -3412,23 +3768,50 @@ aggiungere eventuali altre opzioni con il metodo _opzione=valore_
     unison -version
 
 
+=== Trovare l'ip
+
+sudo ifconfig
 
 
+
+=== VIM
+
+
+http://bullium.com/support/vim_print.html[Cheat sheet]
+
+Sostituzione su tutti i buffer::
+	:bufdo %s/trovaquesto/sostituisci con qesto/g | w
+Incollare da clipboard::
+	"*p
+
+
+=== ((Youtube-dl))
+
+estrazione audio::
+    youtube-dl --extract-audio  https://youtu.be/YDx09vPA0yw
+
+update::
+    sudo pip install -U youtube-dl
+
+=== Wi-Fi, creare un ((hotspot))
+
+- Andare in Network
+- Creare una connessione in modalità WiFi
+- Selezionare "Connect to a Hidden Wifi"
+- Selezionare la Network appena creata
+
+=== ((Xflux))
+
+programma per filtrare i colori degli schermi PC. Si trova al sito https://justgetflux.com/[qui]
+
+    ./xflux  -l 44.55 -g 11.43 -k 2500
+
+
+
+:toc: merge
 
 == Raspberry
 
-=== Configurazione Fisica
-
-- MAC Addresses
-		B8:27:EB:BE:AD:1D -> RaspBerry Pi
-		00-0F-55-B1-1D-F5 ->RaspBerry Pi WiFi Dongle
-
-- IP addressed TPLink Nero
-192.168.1.55 RaspBerry Pi
-192.168.1.56    RaspBerry Pi WiFi Dongle
-
-.Note
-da provare !libexif12 libid3tag0 libjpeg8
 
 === Upgrade firmware
 
@@ -3437,26 +3820,40 @@ da provare !libexif12 libid3tag0 libjpeg8
     sudo reboot
 
 === Sequenza installazione SDcard da linux footnote:[fonte: https://www.raspberrypi.org/documentation/installation/installing-images/linux.md]
-------
-    comando per vedere i devices
-df -h
-    risultato
-/dev/sdb1       256M  108M  149M  43% /media/maurizio/F909-367C
-/dev/sdb2        15G   26M   15G   1% /media/maurizio/b4732aaf-665c-491f-97c7-8bd3be56a476
-    smonto l'sdcard
-umount /dev/sdb1
-umount /dev/sdb2
-    installo l'immagine
-sudo dd bs=4M if=2015-11-21-raspbian-jessie.img of=/dev/sdd
-    assicuriamoci che non ci siano scritture ancora in atto
-sync
-    ora possiamo smontare la sdcard e partire.
-------
 
-Instead of dd you can use dcfldd; it will give a progress report about how much has been written.
+comando per vedere i devices
+
+    df -h
+
+risultato
+
+    /dev/sdb1       256M  108M  149M  43% /media/maurizio/F909-367C
+    /dev/sdb2        15G   26M   15G   1% /media/maurizio/b4732aaf-665c-491f-97c7-8bd3be56a476
+
+smonto l'sdcard
+
+    umount /dev/sdb1
+    umount /dev/sdb2
+
+installo l'immagine (usare *dcfldd* per vedere il progresso)
+
+    sudo dd bs=4M if=2015-11-21-raspbian-jessie.img of=/dev/sdb
+
+assicuriamoci che non ci siano scritture ancora in atto. Se non funziona prova 1M, prenderà di più
+
+    sync
+
+ora possiamo smontare la sdcard e partire.
+
+=== Per fare il backup
+
+    dd if=/dev/sdb of=sd.img bs=4M
+    sudo dd if=/dev/sdb of=~/Downloads/160726_backupPi.img bs=1M
+
+o 1M nel caso l'abbiate
 
 
-=== Passaggi prima installazione, DLNA, Torrent e Samba
+=== Prima installazione
 
 Una buona guida è qui http://raspberry.io/projects/view/naspberry-pi/
 
@@ -3471,8 +3868,7 @@ ssh pi@192.168.1.55
     cambio la password
 sudo passwd pi
     aggiorno il sw
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
     controllo lo spaziondisponibile su disco
 df
     se poco con il configuratore espando il filesystem e imposto il tipo di tastiera.
@@ -3480,13 +3876,106 @@ sudo raspi-config
 
 - installo avconv
 
-    sudo apt-get install libav-tools
+    sudo apt-get install libav-tools ntfs-3g minidlna samba samba-common-bin
 
 - <<linux_usb_esterna, installo il disco esterno>>
 
-- <<dlna, installo dlna>>
+=== Monto HD esterno
 
-- <<samba, installo samba>>
+
+- installare NTFS
+
+    sudo apt-get install ntfs-3g
+
+- lista device
+
+    ls -l /dev/disk/by-uuid
+
+Risposta
+
+    lrwxrwxrwx 1 root root 15 giu 25 20:55 202638e1-4ce4-45df-9a00-ad725c2537bb -> ../../mmcblk0p2
+    lrwxrwxrwx 1 root root 15 giu 25 20:55 22E0-C711 -> ../../mmcblk0p1
+    lrwxrwxrwx 1 root root 10 giu 25 20:55 5292A96F92A9586D -> ../../sda1
+
+impostare la cartella
+
+    sudo mkdir /media/raspberry_ext_hd
+    sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/raspberry_ext_hd
+    sudo nano /etc/fstab
+        proc              /proc           proc    defaults          0       0
+        /dev/mmcblk0p1    /boot           vfat    defaults          0       2
+        /dev/mmcblk0p2    /               ext4    defaults,noatime  0       1
+        /dev/sda1        /media/raspberry_ext_hd     ntfs-3g rw,defaults     0       0
+    sudo reboot
+
+.Montare temporaneamente USB drives footnote:[ntfs-3g for NTFS drives, vfat for FAT32 drives, ext4 for ext4 drives]
+
+    sudo mkdir /media/DRIVE_NAME_*
+    sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/raspberry_ext_hd/
+
+
+=== Installazione DLNA
+
+    sudo apt-get install minidlna
+    sudo cp /etc/minidlna.conf /etc/backup_minidlna.conf
+    sudo nano /etc/minidlna.conf
+
+In the configuration file, add
+
+    db_dir=/home/pi/minidlna
+    media_dir=/media/raspberry_ext_hd/dlna_dir/
+    log_dir=/var/log
+
+Add as many media directories as you need. Change names of drives as needed.
+
+    mkdir /var/cache/minidlna
+    sudo service minidlna force-reload
+    cat /var/log/minidlna.log
+
+Per testare i files:
+
+http://INDIRIZZO-IP-SERVER:8200
+
+
+=== Installazione Samba
+
+    sudo apt-get install samba samba-common-bin
+    sudo cp /etc/samba/smb.conf /etc/samba/backup_smb.conf
+    sudo nano /etc/samba/smb.conf
+
+Find workgroup, and modify its value. This is the workgroup your Windows machine need to be a part of to view the files.
+
+    workgroup = WORKGROUP
+    netbios name = RaspBPi
+
+Remove irrelevant drives, printers if you don't need them
+    Add your own drive:
+
+    [raspberry_ext_hd]
+    comment = External Raspberry Drive
+    valid users = pi
+    path = /media/raspberry_ext_hd
+    create mask = 0777
+    directory mask = 0777
+    read only = No
+
+read only option depends on whether you want your users to change files or not. In my case, I chose yes.
+
+Con il seguente comando abilito ad una PW samba un utente già nel sistema.
+
+    sudo smbpasswd -a marco
+
+Se voglio avviungere un utente samba:
+
+    sudo useradd -m -g users -p 123456789 marco
+
+
+Non mi resta che riavviare il servizio
+
+    sudo service smbd restart
+
+
+
 
 
 ==== Setup Wi-Fi On Your Raspberry Pi via the Command Line
@@ -5305,13 +5794,31 @@ Social::
 
 == Ciappini
 
+=== ((Antizanzare))
+
+- Lemon Eucalyptus oil 30 gocce https://en.wikipedia.org/wiki/P-Menthane-3,8-diol[mentoglicolo]
+- Vanilla Extract 30ml (pleasant
+- Eccipiente, scegliere tra:
+    - Rubbing alcool
+    - Olio da cucina
+    - Vodka
+    - Witch hazel
+
+
+
 === Impianto Culligan
 
 [width='80%', cols = "e,^,^", options='header']
 |=============
 | Data Variazione | Filtri | Gruppo Osmosi
 | 19/10/2015	| X	| -
+| 30/5/2016	| X	| -
 |=============
+
+
+=== Piscina interrata
+
+image::figures/ciappini/piscina_interrata.jpg[]
 
 
 === Scuri
@@ -5624,11 +6131,9 @@ e altri vlavla
 
 
 
-== Index
-
-Indice dei nomi
-
 ////
+== Index
+Indice dei nomi
 .Index terms
 index::[]
 ////

@@ -1,8 +1,24 @@
-
+:toc:
 :toc: merge
 :toclevels: 4
 
 == Appunti Linux
+
+=== ((ADB))
+
+
+Questa probabilmente non serve negli ubuntu più nuovi
+
+    sudo add-apt-repository ppa:phablet-team/tools && sudo apt-get update
+  
+Questa installa ADB e fastboot
+
+    sudo apt-get install android-tools-adb android-tools-fastboot
+    apt-get install mtpfs mtp-tools
+
+
+
+
 
 === ((Blender))
 
@@ -259,7 +275,11 @@ Dropbox App Secret - leave blank normally.
     apt-get install rsync
 
 
-rsync -avz /path/to/source /path/to/destination
+    rsync -avz /path/to/source /path/to/destination
+
+Di seguito pezzi da http://lugscandiano.org/index.php/Backup_con_rsync_via_ssh[questo] interessante sito
+
+    rsync -avz -e ssh /this/dir/ remoteuser@remotehost:/remote/dir
 
 Vediamo nel dettaglio le opzioni utilizzate:
 
@@ -357,8 +377,6 @@ sudo mount -a <2>
 
 
 === Smartmontools
-
-[questa fonte]
 
 installare:
 
@@ -525,9 +543,15 @@ sudo ifconfig
 
 === VIM
 
+
+http://bullium.com/support/vim_print.html[Cheat sheet]
+
 Sostituzione su tutti i buffer:: 
 	:bufdo %s/trovaquesto/sostituisci con qesto/g | w
-   
+Incollare da clipboard::
+	"*p
+
+  
 === ((Youtube-dl))
 
 estrazione audio::
