@@ -290,6 +290,14 @@ z:: comprime i dati usando l'algoritmo gzip;
 --delete:: Eliminare i file non presenti nella posizione sorgente
 --rsh:: --rsh="ssh -p PORTA" user@host:/path/to/source /path/to/destination
 
+.Esempio per il backup
+------------------
+now=$(date +"../%Y%m%d_appunti.zip"
+git archive -o $now HEAD
+rsync -avd /media/maurizio/C005-8CB5/appunti/ .
+rsync -avd --exclude='.git/' . /media/maurizio/C005-8CB5/appunti/
+------------------
+
 
     
 [[samba]]

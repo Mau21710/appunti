@@ -1,0 +1,203 @@
+
+
+== Happiness
+
+//////
+Maurizio Stagni
+
+:doctype: article
+:description: Un breve elenco di esercizi che trovo utili nella vita di tutti i giorni.
+:lang: it
+:numbered:
+//////
+
+
+Sito del corso:
+
+https://courses.edx.org/courses/course-v1:BerkeleyX+GG101x+3T2015/info
+
+
+=== Qualche Definizione
+
+Felicità:: the experience of joy, contentment, or positive well-being, combined with a sense that one's life is good, meaningful, and worthwhile.
+
+Life satisfaction:: A general assessment that, as a whole, one's life is good and worth living. Researchers usually measure life satisfaction by using the Satisfaction with Life Scale, developed by University of Illinois professor Ed Diener and colleagues.
+
+Positive affect:: A technical term to describe the experience of feeling a positive emotion, such as joy, love, or amusement. As Dr. Lyubomirsky notes above, positive affect is an important ingredient to happiness and is sometimes used synonymously with happiness, though it generally refers to a fleeting emotional state rather than an enduring way of being. It is often measured using the Positive and Negative Affect Schedule (PANAS).
+
+Subjective well-being:: As mentioned above, researchers often use this term interchangably with happiness, perhaps because it sounds more precise and scientific. It refers to the way people evaluate their lives, in terms of both their global life satisfaction and emotional states--i.e., it is often assessed by measuring life satisfaction and positive affect. It is strongly tied to positive health.
+
+=== Un pò di storia
+
+The ancients tended to agree that very few would ever succeed in being happy, because happiness takes an incredible amount of work, discipline and devotion, and most people, in the end, are simply not up to the task. The happy are what Aristotle calls “happy few.” They are, if you like, the ethical elite. This is not a democratic conception of happiness.
+
+Don’t get me wrong, there is nothing bad about feeling good. But I would suggest that something of value may have been lost or forgotten in our transition to modern ideas of happiness. We can’t feel good all the time; nor, I think, should we want to. Nor should we assume that happiness can be had (maybe a better word?) without a certain degree of effort, and possibly even sacrifice and pain. These are things that the older traditions knew—in the West and the East alike—and that we have forgotten.
+
+Indeed, if you think about it, this idea of happiness as a natural state creates a curious problem. What if I’m not happy? Does that mean that I’m unnatural? Am I ill, or bad, or deficient? Is there something wrong with me? Is there something wrong with the society in which I live? These are all symptoms of a condition that I call the unhappiness of not being happy, and it is a peculiarly modern condition.
+
+
+=== Five differences between a happy life and a meaningful one
+
+
+        Happy people satisfy their wants and needs, but that seems largely irrelevant to a meaningful life. Therefore, health, wealth, and ease in life were all related to happiness, but not meaning.
+
+        Happiness involves being focused on the present, whereas meaningfulness involves thinking more about the past, present, and future—and the relationship between them.In addition, happiness was seen as fleeting, while meaningfulness seemed to last longer.
+
+        Meaningfulness is derived from giving to other people; happiness comes from what they give to you. Although social connections were linked to both happiness and meaning, happiness was connected more to the benefits one receives from social relationships, especially friendships, while meaningfulness was related to what one gives to others—for example, taking care of children. Along these lines, self-described “takers” were happier than self-described “givers,” and spending time with friends was linked to happiness more than meaning, whereas spending more time with loved ones was linked to meaning but not happiness.
+
+        Meaningful lives involve stress and challenges. Higher levels of worry, stress, and anxiety were linked to higher meaningfulness but lower happiness, which suggests that engaging in challenging or difficult situations that are beyond oneself or one’s pleasures promotes meaningfulness but not happiness.
+
+        Self-expression is important to meaning but not happiness. Doing things to express oneself and caring about personal and cultural identity were linked to a meaningful life but not a happy one. For example, considering oneself to be wise or creative was associated with meaning but not happiness.
+
+        
+=== A Strange device
+
+Imagine you had some kind of device, it attached to your belt,
+it would tap into your neurophysiology, you could press a button and it would make you
+happy as much as you'd want to be happy, whenever you want to be happy, would you press that
+button knowing what you know now? And why or why not?
+
+Rispondi:
+
+- [ ] Si 
+- [ ] No
+
+=== Practica
+
+Pensa a 3 cose belle che ti sono successe oggi. L'esercizio richiede cieca dieci minuti. Per ogni evento:
+
+- Dai un Titolo
+- Scrivi cosa è successo
+- Scrivi come ti ha fatto sentire l'evento e come ti ha fatto sentire dopo (anche adesso)
+
+<<<
+
+.Scheda
+-------------------
+
+Evento 1
+
+    Titolo      ____________________
+    
+    Cosa è successo __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+        
+Evento 2
+
+    Titolo      ____________________
+    
+    Cosa è successo __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+
+Evento 3
+
+    Titolo      ____________________
+    
+    Cosa è successo __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+    
+                    __________________________________
+-------------------
+        
+=== Le emozioni positive aprono la mente.
+
+Cercate un evento iimportante in cui siete riusciti a vedere lo schema della situazione e ad agire in maniera superba. Prima di questo evento è possibile che abbiate avuto un pensiero felice? (Vi hanno regalato un sacchetto di caramelle ecc.)
+
+=== La ricerca di felicità
+
+. inseguire la felicità la manda via?
+. quale può essere un suggerimento per evitare l'*hedonic adaptation*?
+. la soluzione: equilibrio e scheduling
+. affective forecasting -> dificult to think about happines in a realistic way
+
+
+=== Domande buffe
+
+. happiness investing in possession or in experiences
+. more money more happiness?
+
+=== What make us happy?
+
+. Exercise 
+. Sleep
+. Long term achievement
+
+. Social connection
+. ProSocial Behaviour
+
+=== Terms of Happiness
+
+Affective forecasting:: The process of making predictions about how you will feel in the future. According to Daniel Gilbert, who coined the term "affective forecasting" with his colleague Timothy Wilson, affective forecasting is simply "the process by which people look into their future and make predictions about what they’ll like and what they won’t like." However, as Emiliana explained in the previous video, we are often poor judges in the present of what will bring us happiness in the future, causing us to look for happiness in the wrong places.
+
+Impact bias:: The tendency to overestimate how an event or experience in the future will affect our emotional well-being, for better or worse. For instance, we often underestimate our ability to recover from difficult experiences, an ability that Gilbert calls our "psychological immune system." He documented this bias in a study that found people generally overestimate how various defeats or rejections--such as a romantic breakup or being turned down for a job--will impact their happiness. Impact bias is a major cause of mistakes in affective forecasting. It can lead us to avoid certain decisions or activities out of an inflated fear that they will harm our happiness or to covet certain outcomes (such as winning the lottery) that don't actually boost our happiness as much as we think they will.
+
+Set point theory:: The theory that we each have a relatively stable level of happiness that is largely determined by our genes and personality. Though we might experience some fluctuations in happiness due to events big and small, this theory holds that we eventually return to our basic set point of happiness.
+
+Hedonic adaptation:: (aka the "hedonic treadmill"): Our ability to adapt to changes in our life circumstances or sensory experiences. Research suggests many of us have a remarkable ability to get used to things that might initially bring us pleasure, such as getting married or winning the lottery, and even to eventually return to our happiness set point after a traumatic accident. Some researchers, such as Ed Diener at the University of Illinois, however, have argued that the truth about hedonic adaptation and set points is more nuanced: Some people might be more prone than others to adapt to events, and a person's set point may not be stable over time. Throughout this class, we will explore research--and research-based methods--that suggest how we might counteract our tendency for hedonic adaptation and develop more lasting happiness.
+
+Prioritizing positivity:: Deliberately organizing your day-to-day life so that it contains situations that naturally give rise to positive emotional experiences. Laura Catalino, Sara Algoe and Barbara Fredrickson's study compares pursuing happiness to prioritizing positivity, and their results suggest that prioritizing positivity is a more promising approach to boosting happiness. 
+
+=== Happiness Week 2
+
+==== Why human are "ultrasocial"?
+
+. We are a care taking species
+. Flattered Hierarchies
+. We are reconciling species
+. Hyper coordinate species
+. Strive for monogamy
+
+We're loosing the ultrasocial factor:
+
+. High dovorce rate
+. Marital satisfaction declined
+. Rise in loneliness
+. Lost a friend 3->2
+. Average american child spends more time watching TV han talking with parents
+
+Letture:
+. http://intarch.ac.uk/journal/issue40/3/index.html
+
+=== CAUSES AND CONSEQUENCES OF ATTACHMENT STYLES
+
+3 sistemi
+
+. reproductive system
+. attachment system (emotion)
+. caregiving system (touch, vocalisation, eye contact)
+  
+  
+Secure::
+    * loving, warm, trusting
+    * happy, pleasant, give support
+Anxious::
+    * worried, intrusive; statistically divorce, abuse or death of parents
+    * anxious, depressed, or *stalkers*!
+Avoidant:: 
+    * cold, aloof, dismissive
+    * less receptors of happiness feelings
+
+Letture:
+. https://www.apa.org/pubs/journals/releases/hea-29-4-446.pdf
+
+
+

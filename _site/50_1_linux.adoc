@@ -1,0 +1,527 @@
+
+:toc: merge
+:toclevels: 4
+
+== Comandi Linux
+
+=== Cambio tastiera 
+
+Keyboard layout
+
+    sudo nano /etc/default/keyboard     
+
+cambiare contenuto della linea
+
+    XKBLAYOUT=”it”
+
+then reboot
+
+=== Comandi Base
+
+((Dimensione cartella))
+
+    du -hs /path/to/directory
+    
+((Dimensione file))
+
+    df -h
+
+-----
+sudo halt
+
+
+sudo reboot
+
+    se cambiato SDcard devo resettare ssh
+ssh-keygen -f "/home/maurizio/.ssh/known_hosts" -R 192.168.1.55
+    collegarsi
+ssh pi@192.168.1.55
+
+sudo passwd nome_utente
+
+sudo nano /etc/network/interfaces
+    Individuiamo la riga eth0, e cambiame da dhcp a statico. Proprio sotto questa riga, incollare le seguenti righe.
+address 192.168.1.xx
+netmask 255.255.255.0
+network 192.168.0.0
+broadcast 192.168.1.255
+gateway 192.168.1.yy
+-----
+
+per riavviare scheda rete (da testare)
+
+    rfkill list all
+    rfkill unblock all
+
+
+=== ((Mappare disco rete in Linux))
+
+Montare Creare la cartella cha farà da mountpoint
+
+    sudo mkdir raspberry_disk
+    
+Se il disco di rete è condivison con altri sistemi tipo windows:
+
+    sudo apt-get install cifs-utils
+    sudo gedit /etc/nsswitch.conf
+        Find the line looks like:
+    hosts: files mdns4_minimal [NOTFOUND=return] dns
+        change it into:
+    hosts: files mdns4_minimal [NOTFOUND=return] wins dns
+        Run below command so that your Ubuntu can resolve Windows computer name on a DHCP network.
+    sudo apt-get install libnss-winbind winbind
+
+Prerequisiti su Ubuntu. +
+You may either allow the group "users" to mount ((SMB shares)), or add a group, ((samba)), and add users you wish to allow to mount SMB shares to the samba group.
+
+    sudo groupadd samba
+    sudo adduser user samba
+
+Change "user" to the username you wish to add to the samba group.
+
+    sudo visudo
+
+In the "group" section add your group you wish to allow to mount SMB shares
+
+    Add a line  in the "group" section :
+    ## Members of the admin group may gain root privileges
+    %admin ALL=(ALL) ALL
+    %samba   ALL=(ALL) /bin/mount,/bin/umount,/sbin/mount.cifs,/sbin/umount.cifs
+
+Creare le credenziali Samba
+
+    gedit ~/.smbcredentials
+        inserire nel file di testo quanto segue
+    username=uname
+    password=123456
+        dare i permessi giusti
+    sudo chmod 0400 .smbcredentials        
+
+Editare il file di configurazione e montare il tutto
+
+    sudo gedit /etc/fstab
+        aggiungere una riga 
+    //192.168.1.55/ext_hd/ /media/raspberry_disk cifs credentials=/home/maurizio/.smbcredentials,noexec 0 0   
+    sudo mount -a
+
+
+=== Montare usb esterna
+
+[[linux_usb_esterna]]
+
+- installare NTFS
+
+    sudo apt-get install ntfs-3g
+    
+- lista device
+
+    ls -l /dev/disk/by-uuid
+    ls -l /dev/disk/by-uuid
+    sudo mkdir /media/DRIVE_NAME_*
+    sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sdxx /media/DRIVE_NAME*
+    sudo nano /etc/fstab
+        proc              /proc           proc    defaults          0       0
+        /dev/mmcblk0p1    /boot           vfat    defaults          0       2
+        /dev/mmcblk0p2    /               ext4    defaults,noatime  0       1
+        /dev/sda5         /media/sambashare     ntfs-3g rw,defaults     0       0
+    sudo reboot
+
+.Montare temporaneamente USB drives footnote:[ntfs-3g for NTFS drives, vfat for FAT32 drives, ext4 for ext4 drives]
+
+    sudo mkdir /media/DRIVE_NAME_*
+    sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda5 /media/sambashare/
+
+=== ((SSH))
+
+.((Lanciare un comando e uscire senza interroperlo))
+---------
+[1]+  Stopped myprogram <1>
+$ disown -h %1
+$ bg 1
+[1]+ myprogram &
+$ logout
+---------
+<1> premere crtl+Z
+
+
+
+=== Istallazioni Linux
+
+- ((AVCONV)): Libreria per manipolare video +
+    sudo apt-get install libav-tools   
+- ((DCROW)): Libreria per gestire immagini RAW +
+    sudo apt-get install dcraw
+- ((EXIF TOOLS)):  Script Perl per gestire EXIF +
+    sudo apt-get install libimage-exiftool-perl
+- ((Unison)): best sync app
+    sudo apt-get install unison
+
+
+    
+=== ((Blender))
+
+    sudo apt-get install libsdl1.2debian
+    sudo add-apt-repository ppa:thomas-schiex/blender
+    sudo apt-get update
+    sudo apt-get install blender    
+
+[[dlna]]
+=== ((DLNA))
+
+    sudo apt-get install minidlna
+    sudo cp /etc/minidlna.conf /etc/backup_minidlna.conf
+    sudo nano /etc/minidlna.conf
+    
+In the configuration file, add
+
+    db_dir=/home/pi/minidlna
+    media_dir=/media/VERBATIM 
+            prima era
+            media_dir=V,/media/VERBATIM
+            media_dir=P,/media/VERBATIM
+    log_dir=/var/log
+    
+Add as many media directories as you need. Change names of drives as needed.    
+
+    mkdir /home/pi/minidlna
+    chmod 777 /home/pi/minidlna    
+    sudo service minidlna force-reload
+    cat /var/log/minidlna.log
+
+Per testare i files:
+
+http://INDIRIZZO-IP-SERVER:8200
+
+
+=== ((Simple Google TTS))
+
+    sudo apt-get install git xsel libnotify-bin libttspico0 libttspico-utils libttspico-data libwww-perl libwww-mechanize-perl libhtml-tree-perl sox libsox-fmt-mp3
+
+    git clone https://github.com/Glutanimate/simple-google-tts.git
+
+    ./simple-google-tts -h #aiuto
+
+=== ((Midi))
+
+    sudo apt-get install fluidsynth
+
+Al termine dell’installazione apri Qsynth dal menù Applicazioni -> Audio e Video -> Qsynth.
+Dall’interfaccia del programma seleziona il pulsante Setup e nella scheda Soundfonts fai click su Open per selezionare il file dei fonts in /usr/share/sounds/sf2/FluidR3_GM.sf2 (quello predefinito che viene visualizzato) e conferma il restart del motore.
+
+    sudo apt-get install timidity timidity-interfaces-extra
+
+===  ((mkvmerge))
+
+Per incorporare file srt in file matrioska
+
+    apt-get install mkvtoolnix
+    mkvmerge -o output.mkv video.mp4 subtitles.srt
+    
+=== ((Loopback Suono Linux))
+
+    sudo apt-get install jackd && sudo apt-get install fluidsynth qjackctl
+    
+    
+
+=== ((Xflux))
+
+programma per filtrare i colori degli schermi PC. Si trova al sito https://justgetflux.com/[qui]
+
+    ./xflux  -l 44.55 -g 11.43 -k 2500
+
+
+=== ((rclone))
+
+==== Impostare ((Dropbox))
+
+     rclone config
+     n) New remote
+     inserire il nome
+     lasciare bianco
+name> remote
+What type of source is it?
+Choose a number from below
+ 1) swift
+ 2) s3
+ 3) local
+ 4) google cloud storage
+ 5) dropbox
+ 6) drive
+type> 5
+Dropbox App Key - leave blank normally.
+app_key> 
+Dropbox App Secret - leave blank normally.
+
+==== Utilizzo
+
+    rclone sync source:path dest:path
+
+    rclone sync -v ~/Mao/GDrive/Fitness gb:Fitness/**
+
+=== ((rsync))footnote:[preso da http://www.mrwebmaster.it/linux/rsync-sincronizzare-file-cartelle_11674.html]
+
+==== installazione
+
+    apt-get install rsync
+
+
+rsync -avz /path/to/source /path/to/destination
+
+Vediamo nel dettaglio le opzioni utilizzate:
+
+a:: modalità "archivio" (copia ricorsivamente tutti i file, preservando permessi, timestamp, link simbolici, owner e gruppi);
+u:: Se nella cartella di destinazione si hanno dei file più recenti rispetto alla cartella sorgente e li si vuole preservare si dovrà aggiungere il comando
+v:: modalità "verbose", offre un output a video circa il risultato dell'elaborazione;
+z:: comprime i dati usando l'algoritmo gzip;
+--delete:: Eliminare i file non presenti nella posizione sorgente
+--rsh:: --rsh="ssh -p PORTA" user@host:/path/to/source /path/to/destination
+
+
+    
+[[samba]]
+=== samba
+
+    sudo apt-get install samba samba-common-bin
+    sudo cp /etc/samba/smb.conf /etc/samba/backup_smb.conf
+    sudo nano /etc/samba/smb.conf
+
+Find workgroup, and modify its value. This is the workgroup your Windows machine need to be a part of to view the files. 
+
+    workgroup = WORKGROUP
+    netbios name = RaspBPi
+
+Remove irrelevant drives, printers if you don't need them
+    Add your own drive:
+
+    [DRIVE_NAME_*]
+    comment = Some comment about this drive
+    path = /media/DRIVE_NAME_*
+    create mask = 0777
+    directory mask = 0777
+    read only = yes
+    
+read only option depends on whether you want your users to change files or not. In my case, I chose yes.
+
+Controllo i giusti diritti d'accesso alla cartella scondivisa
+
+    sudo chown pi:users /mnt/torrents
+    chmod g+w /mnt/torrents
+    sudo service samba restart
+
+Possibile problema
+
+    Failed to restart samba.service: Unit samba.service is masked.
+    
+Se non va ho provato footnote:[altre inutilità
+    systemctl unmask samba
+    systemctl enable samba
+    sudo systemctl restart smbd
+    sudo systemctl restart nmbd]
+    
+    ls -l /lib/systemd/system/samba*
+        lrwxrwxrwx 1 root root 9 Mar 7 2015 /lib/systemd/system/samba.service -> /dev/null
+    rm /lib/systemd/system/samba.service
+    
+Se voglio avviungere un utente:
+
+    sudo useradd -m -g users -p 123456789 marco
+    
+Con il seguente comando abilito ad una PW samba un utente già nel sistema.
+    sudo smbpasswd -a marco
+    
+
+    
+
+==== Montare disco SMB ToDo Doppio?
+
+Bisogna in primo luogo creare un file che contiene le credenziali di accesso al disco di rete. Potete crearlo dove volete, la cosa più (s)comoda è crearlo in una cartella di sistema dove difficilmente vi ritroverete a smanacciare
+
+.Comandi
+----------------
+sudo mkdir /root/smb/
+sudo chmod 700 /root/smb/
+sudo nano /root/smb/credentials
+----------------
+
+.Compilazione credentials
+----------------
+username=user
+password=pwd
+----------------
+
+.Comandi
+----------------
+sudo mkdir /media/sambashare 
+sudo nano /etc/fstab <1>
+sudo mount -a <2>
+----------------
+
+<1> aggiungere riga: +
+    //192.168.0.11/sda5 /media/sambashare cifs defaults, credentials=/root/smb/credentials,sec=ntlm,rw,iocharset=utf8,uid=1000,gid=1000 0 0 +
+    '1000' è il primo utente, meglio mettere 'pi'
+<2> rimonta fstab. così si può testare che vada tutto bene.
+
+
+
+=== SVG File batch conversion to png and svg
+
+for i in *.svg; do inkscape $i -d=900 -e `echo $i | sed -e 's/svg$/png/'`; done
+for i in *.png; do convert `echo $i | sed -e 's/png$/jpg/'`; done
+    
+for i in _base_movies.svg; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
+
+=== Torrent, Transmission
+
+.Comandi iniziali
+---------
+sudo apt-get update
+sudo apt-get upgrade
+cd /media/catella-montata
+sudo mkdir completati
+sudo mkdir incompleti
+    questa serve se vuoi mettere dei file torrent che vengano caricati in automatico
+sudo mkdir controllo
+sudo apt-get install transmission-daemon
+sudo /etc/init.d/transmission-daemon stop
+sudo nano /etc/transmission-daemon/settings.json
+    "download-dir": "/media/VERBATIM/completati",
+    "incomplete-dir": "/media/VERBATIM/incompleti",
+    "incomplete-dir-enabled": true,
+    "rpc-enabled": true, <1>
+    "rpc-username": "username per torrent",
+    "rpc-password": "password per torrent",
+    "rpc-whitelist-enabled": false, <2>
+        oppure "rpc-whitelist": "192.168.1.*",
+                "rpc-whitelist-enabled": true,
+---------
+<1> accesso remoto
+<2> l'uso della whitelist ha dato problemi
+
+
+///
+Se intendiamo utilizzare le funzioni di aggiunta automatica dei torrent presenti nella cartella controllo prima creata, dovremo aggiungere la configurazione relativa al file.
+Dobbiamo quindi aggiungere due righe in fondo al file, prima della parentesi graffa, facendo attenzione a una cosa: ogni riga termina con una virgola, tranne l’ultima.
+Andremo quindi a aggiungere una virgola in fondo a quella che è ora l’ultima riga, e poi aggiungeremo le seguenti:
+(mi raccomanmdo attenzione a questo aspetto, altrimenti non funzionerà nulla!)
+
+"watch-dir": "/percorso/controllo",
+
+"watch-dir-enabled": true
+
+(attenzione all’ ultima, SENZA virgola finale. Ricordatevi sempre di inserire il vostro effettivo percorso invece della parola percorso).
+Ora possiamo salvare il file con lo stesso nome (Premere CTRL+O, invio per confermare il nome, CTRL+X per uscire dall’ editor Nano).
+///
+
+.Aggiunta utente raspberry al gruppo debian-transmission
+-----------------
+sudo adduser utenteRaspy debian-transmission
+sudo nano /etc/init.d/transmission-daemon <1>
+    secondo me questi sono inutili
+sudo chown pi /etc/transmission-daemon/settings.json <2>
+sudo chown pi -R /var/lib/transmission-daemon/info/ <2>
+sudo chown pi -R /var/lib/transmission-daemon/
+sudo chown pi -R /var/lib/transmission-daemon/info/
+    e questi m'hanno salvato
+sudo chown pi:users tmp/
+sudo chown pi:users trnt/
+chmod g+w tmp/
+chmod g+w trnt/
+sudo nano /etc/sysctl.conf <3>
+sudo update-rc.d transmission-daemon defaults <4>
+sudo reboot
+-----------------
+<1> nella riga use editare "USER=pi"
+<2> per evitare problemi di privilegi sporadici
+<3> se necessario modificare l'ultima riga così +
+    vm.min_free_kbytes = 16384
+<4> questo dovrebbe metterlo di default in autorun.
+    
+.Da qualunque browser
+---------
+192.168.1.55:9091
+---------
+
+
+=== ((Unison))
+
+Sincronismo 3 dispositivi. Stella con il raspberry
+
+    Rasperry IP address 192.168.1.10
+    PC1 IP address 192.168.1.11
+
+Cartella da sincronizzare /media/Sync
+
+*1o Step*: sun entrambi i PC
+
+    sudo apt-get -y install unison openssh-server ssh nano
+
+
+*2o step*: creare una coppia di chiavi condivisa Pubblica Provara sul *Raspberry*
+
+    ssh-keygen -t dsa
+        Alle domande premere sempre invio. Poi copiamo la password sul PC1
+    ssh-copy-id -i $HOME/.ssh/id_dsa.pub root@192.168.1.11
+
+Ora verifichiamo su *PC1* che la chiave sia stata installata
+
+    cat $HOME/.ssh/authorized_keys
+
+*3o step*: inizializzare la cartella di scambio. *Notare bene la doppia barra per indicare che nel server media sta sotto la root*. Io lo ho messo nella home
+
+    unison /media/Sync ssh://utente@192.168.1.102//media/Sync
+    
+*4o step*: inizializzare il file di configurazione. Sempre sul raspberry:
+
+    nano /root/.unison/default.prf
+        editare quanto segue:
+    # Unison preferences file
+    # Roots of the synchronization
+    root = /media/sinc
+    root = ssh://utente@192.168.1.50/sinc
+
+aggiungere eventuali altre opzioni con il metodo _opzione=valore_
+
+*5o step*: mettere su Cron
+
+    crontab -e
+        scrivere nell'editor
+    */5 * * * * /usr/bin/unison &> /dev/null
+        NB */5 è ogni 5 minuti, solo il 5 è alle 5 di ogni ora
+    
+
+==== Versione alternativa
+
+
+    #Controlla la versione da remoto
+    ssh user@remotehostname unison -version
+    #e verifica che matchi con la tua
+    unison -version
+
+
+=== Trovare l'ip
+
+sudo ifconfig
+
+
+
+=== VIM
+
+Sostituzione su tutti i buffer:: 
+	:bufdo %s/trovaquesto/sostituisci con qesto/g | w
+   
+=== ((Youtube-dl))
+
+estrazione audio::
+    youtube-dl --extract-audio  https://youtu.be/YDx09vPA0yw
+
+update::
+    sudo pip install -U youtube-dl
+
+=== Wi-Fi, creare un ((hotspot))
+
+- Andare in Network
+- Creare una connessione in modalità WiFi
+- Selezionare "Connect to a Hidden Wifi"
+- Selezionare la Network appena creata
+
+

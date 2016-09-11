@@ -1,0 +1,42 @@
+
+== Windows
+
+=== Net Use
+
+La situazione più comune è la mappatura di una unità di rete, che possiamo effettuare con il comando:
+
+    net use z: \\SRV01\DATI /user:name password 
+    net use z: \\SRV01\DATI /user:DOMAIN\name password
+    
+* Con lo swith /savecred, nome e password vengono salvate.
+* Se vogliamo utilizzare la prima lettera disponibile sul client, il comando diventa: net use * \\SRV01\......
+* Nel caso non si volesse scrivere in chiaro la password su una riga di comando, basta sostituirla con un asterisco, ed il sistema ce la chiederà, oscurandola.
+* Aggiungendo al comando lo switch /persistent:yes, la connessione verrà ripristinata al riavvio.
+* Per sconnettere l’unità, possiamo impartire il comando: _net use z: /delete_
+* Eliminare la richiesta di conferma _net use z: /delete /yes_
+* per cancellare tutte le mappature: _net use * /delete /yes_
+
+=== Special Folders
+
+[format='csv']
+|=====
+Programmi, %AppData%\Microsoft\Windows\Start Menu\Programs
+Avvio automatico, %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+Quick Launch toolbar,  %userprofile%\Application Data\Microsoft\Internet Explorer\Quick Launch
+|=====
+-
+
+=== Recreate Show desktop Icon
+
+. Create "Show desktop.scf"
+. Edit +
+    [Shell]
+    Command=2
+    IconFile=explorer.exe,3
+    [Taskbar]
+    Command=ToggleDesktop
+. Drag the Show desktop icon to your Quick Launch toolbar.
+
+
+
+

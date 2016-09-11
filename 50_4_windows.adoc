@@ -1,5 +1,17 @@
+:toc:
+:toc-placement: preambe
+:toc-level: 4
+
 
 == Windows
+
+=== gestione programmi Avvio
+
+Inserire nella barra di ricerca.
+
+	msconfig 
+
+Si avvierà l’utility di configurazione di sistema
 
 === Net Use
 

@@ -1,0 +1,77 @@
+
+
+== Analisi finanziaria
+
+Verrà affrontata con 3 differenti argomenti
+
+- Zero Base Budget
+- Analisi finanziaria
+- Controllo dei risultati
+
+=== Zero Base Budget
+
+L'acronimo è *ZBB*. Elementi:
+
+- Quanti anni durerà il progetto
+- Cash flow in
+- Cash flow out
+
+==== Elementi per calcolo spese
+
+* Cash Flow In
+    ** Vendite ipotizzate
+* Cash Flow out
+    ** Cash Flow Grezzo
+        - Lavoro (una riga per dipendente)
+        - Equipaggiamenti
+        - Varie
+            . Noleggi
+            . Assicurazioni
+            . Cellulari / Benefit
+            . Spese amministrative
+            . Spese legali
+            . Riparazioni/Resi
+    ** Inflazione
+    ** Previsione spese contingenti
+* Cash Flow Netto
+* Calcolo Tasse
+    
+Appunti approssimativi
+
+=== Analisi finanziaria
+
+Elementi:
+
+- risultati ZBB
+
+    PV Present Value 
+    FV Future Value
+    r rate of interest
+    t time
+    
+.Future Value
+    FV = PV * (1+R)^T
+        FV Future Value
+        PV Present Value
+        R Rate of interest
+        T time (in years)
+
+    
+.Discount Rate
+    1/(1+R)^T
+    
+
+.Future Value    
+FV & = PV * (1-R)^T
+
+- Net PResent Value (NPV)
+
+
+=== Controllo dei risultati
+
+Da Completare
+
+
+
+
+
