@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="it">
+<info>
+<title>Appunti</title>
+<date>2016-09-30</date>
+</info>
+<chapter xml:id="_indice">
+<title>Indice</title>
+
+</chapter>
+<chapter xml:id="_esercizi_fitness">
+<title>Esercizi Fitness</title>
+
+<section xml:id="_corpo_libero">
+<title>Corpo libero</title>
+<section xml:id="_addominali">
+<title>addominali</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>crunch</primary></indexterm>crunch.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Da supini flettere leggermente le gambe, portare le mani dietro la nuca e contrarre gli addominali,     senza che le mani spingano sulla testa.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: 6 pack.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/crunch.svg"/>
+</imageobject>
+<textobject><phrase>crunch.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="_addominali_bassi_a_ponte">
+<title>addominali bassi a ponte</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="images/addominale_basso_gamba.svg"/>
+</imageobject>
+<textobject><phrase>addominale basso gamba.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_addominali_con_peso">
+<title>addominali con peso</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>addominali con peso</primary></indexterm>addominali con peso.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Da supini flettere leggermente le gambe, stendersi supini ocn il peso afferrato con entrambe le mani allineato alla testa, sollevare il peso ed alzarsi.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: 6 pack.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/crunch_with_weight.svg"/>
+</imageobject>
+<textobject><phrase>crunch with weight.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<variablelist xml:id="air_squat">
+<varlistentry>
+<term><indexterm><primary>air squat</primary></indexterm>air squat</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/air_squat.svg"/>
+</imageobject>
+<textobject><phrase>air squat.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>accosciata</primary></indexterm>accosciata, <indexterm><primary>squat</primary></indexterm>squat<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Esercizio che prevede il passaggio dalla posizione eretta a quella accosciata: gambe flesse oltre i 90°, schiena eretta, peso sulla pianata del piede. Le braccia possono essere parallele al terreno o più sollevate.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: migliora la flessibilità, e la muscolatura.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><indexterm><primary>air squat, varianti</primary></indexterm>air squat, varianti</term>
+<listitem>
+<itemizedlist>
+<listitem>
+<simpara><indexterm><primary>squat jump</primary></indexterm>squat jump: Esercizio adatto al rafforzamento delle gambe</simpara>
+</listitem>
+<listitem>
+<simpara>Squat press</simpara>
+</listitem>
+<listitem>
+<simpara>Squat side to side</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Scendo in squat con una delle due gambe in affondo laterale</simpara>
+</listitem>
+<listitem>
+<simpara>Salto nella direzione opposta alla gamba in affondo</simpara>
+</listitem>
+<listitem>
+<simpara>Atterro specularmente al punto 1</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+</section>
+</section>
+<section xml:id="_burpee">
+<title>burpee</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>burpeee</primary></indexterm>burpeee.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Effetti dell&#8217;esercizio.</simpara>
+<variablelist>
+<varlistentry>
+<term><emphasis>Esecuzione</emphasis></term>
+<listitem>
+<simpara>Il burpee è un esercizio full body<footnote><simpara><link xlink:href="https://it.wikipedia.org/wiki/Burpee">https://it.wikipedia.org/wiki/Burpee</link></simpara></footnote>. Il movimento base si divide in 4 passaggi:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Partenza in posizione eretta.<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Si passa in posizione di squat con le mani a terra.<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Si lanciano i piedi indietro tenendo le mani a terra.<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Subito si riportano i piedi in posizione di Squat.<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara>Si salta dalla posizione di squat verso l&#8217;alto</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/burpee.svg"/>
+</imageobject>
+<textobject><phrase>burpee.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<section xml:id="_burpee_bastardo">
+<title>burpee bastardo</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>burpee bastardo</primary></indexterm>burpee bastardo.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Come il burpee, ma con 2 flessioni.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Phisico!.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/bastard_burpee.svg"/>
+</imageobject>
+<textobject><phrase>bastard burpee.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_burpee_con_pesi">
+<title>burpee con pesi</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>burpee with dumbbells</primary></indexterm>burpee with dumbbells,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un burpee_with_dumbbells.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : dumbbell x 2
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="images/burpee_with_dumbbells.svg"/>
+</imageobject>
+<textobject><phrase>burpee with dumbbells.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+</section>
+<section xml:id="_camaleonte">
+<title>Camaleonte</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>mossa del camaleonte</primary></indexterm>mossa del camaleonte,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Si parte in quadrupedia, poi si avanza il busto parallelamente al terreno fino a trovarsi in posizione di flessione. Poi ritorno.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="images/camaleonte.svg"/>
+</imageobject>
+<textobject><phrase>camaleonte.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<variablelist xml:id="criss_cross">
+<varlistentry>
+<term><indexterm><primary>criss_cross</primary></indexterm>criss_cross</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/criss_cross.svg"/>
+</imageobject>
+<textobject><phrase>criss cross.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>posizione del criss cross</primary></indexterm>posizione del criss cross.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: addominali fatti a ginocchia alte con le gambe a 90 gradi. Portare mani dietro la nuca. Si portano le ginocchia alternate al petto ruotando il busto per toccare le ginocchia con il gomito opposto.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Rinforzo Core.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis><indexterm><primary>Criss Cross to Teaser</primary></indexterm>Criss Cross to Teaser</emphasis>: 3 movimenti di criss cross e si sta per un secondo in posizione teaser</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="downdog_to_bridge">
+<varlistentry>
+<term><indexterm><primary>downdog to bridge</primary></indexterm>downdog to bridge</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/downdog_to_bridge.svg"/>
+</imageobject>
+<textobject><phrase>downdog to bridge.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>movimento da cane a faccia in giù a ponte</primary></indexterm>movimento da cane a faccia in giù a ponte.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Da Cane faccia in giù fino a ponte faccia all&#8217;aria.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Esercizio che coinvolge più fasce.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="double_dumbbell">
+<varlistentry>
+<term><indexterm><primary>double_dumbbell</primary></indexterm>double_dumbbell</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/double_dumbbell.svg"/>
+</imageobject>
+<textobject><phrase>double dumbbell.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>double dumbbell</primary></indexterm>double dumbbell,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un double dumbbell.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : dumbell x 2<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="dumbbell_biceps_curl">
+<varlistentry>
+<term><indexterm><primary>dumbbell_biceps_curl</primary></indexterm>dumbbell_biceps_curl</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/dumbbell_biceps_curl.svg"/>
+</imageobject>
+<textobject><phrase>dumbbell biceps curl.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>dumbbell_biceps_curl</primary></indexterm>dumbbell_biceps_curl,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un dumbbell_biceps_curl.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="dumbbell_front_raise">
+<varlistentry>
+<term><indexterm><primary>dumbbell_front_raise</primary></indexterm>dumbbell_front_raise</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/dumbbell_front_raise.svg"/>
+</imageobject>
+<textobject><phrase>dumbbell front raise.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>dumbbell_front_raise</primary></indexterm>dumbbell_front_raise,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un dumbbell_front_raise.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="front_squat">
+<varlistentry>
+<term><indexterm><primary>front squat</primary></indexterm>front squat</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/front_squat.svg"/>
+</imageobject>
+<textobject><phrase>front squat.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>accosciata con il bilancere appoggiato al petto</primary></indexterm>accosciata con il bilancere appoggiato al petto,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Accosciata con il bilanciere appoggiato al petto.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Effetti dell&#8217;asana.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="geko">
+<varlistentry>
+<term><indexterm><primary>geko</primary></indexterm>geko</term>
+<listitem>
+<simpara>   <inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/geko.svg"/>
+</imageobject>
+<textobject><phrase>geko.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione del geko</primary></indexterm>posizione del geko<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Quadrupedia, le ginocchia non toccano terra. Estendi braccio sinistro e gamba destra e viceversa.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Effetti dell&#8217;esercizio.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="high_knees">
+<varlistentry>
+<term><indexterm><primary>high_knees</primary></indexterm>high_knees</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/high_knees.svg"/>
+</imageobject>
+<textobject><phrase>high knees.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>high_knees</primary></indexterm>high_knees,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire una corsa sul posto con le ginocchia alte.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="hip_escape">
+<varlistentry>
+<term><indexterm><primary>hip escape</primary></indexterm>hip escape</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/hip_escape.svg"/>
+</imageobject>
+<textobject><phrase>hip escape.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>anche in fuga</primary></indexterm>anche in fuga.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Quattro zampe, ginocchia vicine a terra. Far uscire la gamba sx dal lato destro vicina al terreno tenendo le ginocchia del dx vicine a terra.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: benefici al core e alla mobilitazione dell&#8217;anca.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="jumping_jack">
+<varlistentry>
+<term><indexterm><primary>jumping jack</primary></indexterm>jumping jack</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/jumping_jack.svg"/>
+</imageobject>
+<textobject><phrase>jumping jack.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>posizione del &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;.</primary></indexterm>posizione del &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;.,<?asciidoc-br?>
+<indexterm><primary>posizione del &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;</primary></indexterm>posizione del &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Esercizio che coinvolge gambe e un pò tutto il resto.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Effetti dell&#8217;esercizio.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="lunge">
+<varlistentry>
+<term><indexterm><primary>lunge</primary></indexterm>lunge</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/lunge.svg"/>
+</imageobject>
+<textobject><phrase>lunge.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>affondo</primary></indexterm>affondo.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un affondo.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Effetti dell&#8217;esercizio.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="mountain_climber">
+<varlistentry>
+<term><indexterm><primary>mountain climber</primary></indexterm>mountain climber</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/mountain_climber.svg"/>
+</imageobject>
+<textobject><phrase>mountain climber.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>arrampicatore</primary></indexterm>arrampicatore.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: dalla posizione di plank portare alternativamente le ginocchia al petto.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: rinforzo del core.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="plank">
+<varlistentry>
+<term><indexterm><primary>plank</primary></indexterm>plank</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/plank.svg"/>
+</imageobject>
+<textobject><phrase>plank.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>posizione a V</primary></indexterm>posizione a V.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Posizione della flessione con le braccia tese.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno
+<emphasis>Effetti</emphasis>: ottimo esercizio per il core.</simpara>
+<variablelist>
+<varlistentry>
+<term>varianti</term>
+<listitem>
+<itemizedlist>
+<listitem>
+<simpara><indexterm><primary>plank walk</primary></indexterm>plank walk</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Partenza in posizione plank</simpara>
+</listitem>
+<listitem>
+<simpara>Piego il braccio destro e appoggio il gomito destro al terreno</simpara>
+</listitem>
+<listitem>
+<simpara>Piego nello stesso modo il sinistro.</simpara>
+</listitem>
+<listitem>
+<simpara>Fletto il braccio sinistro e lo riporto in appoggio sulla mano</simpara>
+</listitem>
+<listitem>
+<simpara>Fletto come nel punto 4 anche il destro</simpara>
+</listitem>
+<listitem>
+<simpara>Ricomincio dal punto 1 ma inverto il braccio che per primo scende.</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara><indexterm><primary>side plank</primary></indexterm>side plank: Come il plank ma con il busto perpendicolare al terreno sorreggendosi su un braccio od un gomito.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="plank_to_teaser">
+<varlistentry>
+<term><indexterm><primary>plank to teaser</primary></indexterm>plank to teaser</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/plank_to_teaser.svg"/>
+</imageobject>
+<textobject><phrase>plank to teaser.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>posizione a V</primary></indexterm>posizione a V.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Esercizio dinamico che si fa passando dalla posizione di <link linkend="plank">plank sui gomiti</link> a quella di teasef<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno
+<emphasis>Effetti</emphasis>: Fa benissimo.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="prisoner_squat">
+<varlistentry>
+<term><indexterm><primary>prisoner_squat</primary></indexterm>prisoner_squat</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/prisoner_squat.svg"/>
+</imageobject>
+<textobject><phrase>prisoner squat.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>prisoner_squat</primary></indexterm>prisoner_squat,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un prisoner_squat.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="power_clean">
+<varlistentry>
+<term><indexterm><primary>power_clean</primary></indexterm>power_clean</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/power_clean.svg"/>
+</imageobject>
+<textobject><phrase>power clean.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>power_clean</primary></indexterm>power_clean,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un clean, ma con variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : bilanciere
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="power_cobra">
+<varlistentry>
+<term><indexterm><primary>power cobra</primary></indexterm>power cobra</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/power_cobra.svg"/>
+</imageobject>
+<textobject><phrase>power cobra.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: ((posizione del cobra dinamico.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Esercizio dinamico che comporta il passare in maniera alternata dalla posizione del cobra a quella accosciata.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Rinforza Core e Spalle.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="pull_up">
+<varlistentry>
+<term><indexterm><primary>pull up</primary></indexterm>pull up</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/pull_up.svg"/>
+</imageobject>
+<textobject><phrase>pull up.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>trazioni</primary></indexterm>trazioni.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Esercizio di trazioni alla sbarra. Nel crossfit ha un&#8217;esecuzione con slancio che permette la realizzazione di più serie.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Riforzo spalle, resistenza alla presa, core.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="push_up">
+<varlistentry>
+<term><indexterm><primary>push up</primary></indexterm>push up</term>
+<listitem>
+<simpara>   <inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/push_up.svg"/>
+</imageobject>
+<textobject><phrase>push up.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinonimi</emphasis>: <indexterm><primary>flessione</primary></indexterm>flessione<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Esercizio che si esegue partendo dalla posizione di plank, flettendo e distendendo le braccia<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Pettorali.</simpara>
+<variablelist>
+<varlistentry>
+<term>Varianti</term>
+<listitem>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong"><indexterm><primary>Around the clock push up</primary></indexterm>Around the clock push up</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><indexterm><primary>HandStand push up</primary></indexterm>HandStand push up</emphasis>: Forget shoulder presses. If you want a killer shoulder workout, look no further than the handstand push-up. To perform the handstand push-up, assume a handstand position. Slowly bend your elbows and lower your inverted body towards the ground. In order to maintain balance, you’re going to have to call on your core and other smaller stabilizing muscles. If you can’t do a stand-alone handstand, use a wall to assist you.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><indexterm><primary>Hindu push up</primary></indexterm>Hindu push up</emphasis>: <footnote><simpara><link xlink:href="http://www.artofmanliness.com/2015/08/05/the-prisoner-workout/">http://www.artofmanliness.com/2015/08/05/the-prisoner-workout/</link></simpara></footnote> This is a dynamic full-body movement that will build strength and flexibility in your chest, shoulders, back, hips, and triceps.<?asciidoc-br?>
+Get in position by standing with your feet slightly wider than shoulder-width apart. Bend down and place your hands on the floor while keeping your arms and legs straight. You should look like an upside down human "v" with your butt being the point of the "v" and your head pointing down to the ground.<?asciidoc-br?>
+To perform the Hindu push-up, you’re going to make sort of a swooping motion with your body. Bring your head down and forward by bending your elbows. When your head gets close to the ground, continue moving your torso forward by arching your back and lowering your hips. Your hips will now be near your hands. Make sure to get a good stretch in your back. Return to the starting position and repeat.<?asciidoc-br?></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><indexterm><primary>Cobra Push up</primary></indexterm>Cobra Push up</emphasis>: dalla posizione bassa della flessione portare il busto tutto a destra e tutto a sinistra e riflettere le braccia.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><indexterm><primary>Push up and rotation</primary></indexterm>Push up and rotation</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><indexterm><primary>Spiderman push up</primary></indexterm>Spiderman push up</emphasis>: Push up con apertura alternata della gamba destra e della gamba sinistra nella fase di discesa. Il ginocchio della gamba divaricata cerca il gomito.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong"><indexterm><primary>Stella marina</primary></indexterm>Stella marina</emphasis>: Dalla posizione di push up bassa a mani strette passare a quella a mani e piedi larghe con tre o quattro balzelli</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="renegade">
+<varlistentry>
+<term><indexterm><primary>renegade</primary></indexterm>renegade</term>
+<listitem>
+<simpara>   <inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/renegade.svg"/>
+</imageobject>
+<textobject><phrase>renegade.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinonimi</emphasis>: <indexterm><primary>remata in plank</primary></indexterm>remata in plank<?asciidoc-br?>
+   <emphasis>Esecuzione</emphasis>: plank remando con due pesi<?asciidoc-br?>
+   <emphasis>Strumenti</emphasis> : dumbbells
+   <emphasis>Effetti</emphasis>: Muscoli.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="reverse_crunch">
+<varlistentry>
+<term><indexterm><primary>reverse crunch</primary></indexterm>reverse crunch</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/reverse_crunch.svg"/>
+</imageobject>
+<textobject><phrase>reverse crunch.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>addominale inverso</primary></indexterm>addominale inverso.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un addominale inverso.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Resistenza, core.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><indexterm><primary>rollata</primary></indexterm>rollata</term>
+<listitem>
+<simpara><emphasis>Sinonimi</emphasis>: Roll up</simpara>
+<variablelist>
+<varlistentry>
+<term>Varianti</term>
+<listitem>
+<itemizedlist>
+<listitem>
+<simpara>Rollata e jump: Rollata su tappetino e jump</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><indexterm><primary>rollè alto</primary></indexterm>rollè alto</term>
+<listitem>
+<simpara>Quadrupedia, le ginocchia non toccano terra. Rolle su braccio sinistro e gamba destra. Ruotare fino ad avere il torso in alto e toccare il piede in alto con la mano libera.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="run_in_place">
+<varlistentry>
+<term><indexterm><primary>run in place</primary></indexterm>run in place</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/high_knees.svg"/>
+</imageobject>
+<textobject><phrase>high knees.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>corsa sul posto</primary></indexterm>corsa sul posto.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire una corsa sul posto.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Resistenza.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="single_up">
+<varlistentry>
+<term><indexterm><primary>single up</primary></indexterm>single up</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/single_up.svg"/>
+</imageobject>
+<textobject><phrase>single up.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>salto della corda</primary></indexterm>salto della corda<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : corda
+<emphasis>Esecuzione</emphasis>: Saltare la corda.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: agilità, polpacci.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="sit_up">
+<varlistentry>
+<term><indexterm><primary>sit up</primary></indexterm>sit up</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/sit_up.svg"/>
+</imageobject>
+<textobject><phrase>sit up.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>addominale da steso a seduto</primary></indexterm>addominale da steso a seduto.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Si parte dalla posizione base dell&#8217;addominale con le braccia alzate e gambe stese (parallele al terreno) e si esegue raccogliendo le gambe e le braccia, portandosi in posizione seduta.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: 6 pack.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="squat_and_press_with_dumbbells">
+<varlistentry>
+<term><indexterm><primary>squat and press with dumbbells</primary></indexterm>squat and press with dumbbells</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/squat_and_press_with_dumbbells.svg"/>
+</imageobject>
+<textobject><phrase>squat and press with dumbbells.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>squat_and_press_with_dumbbells</primary></indexterm>squat_and_press_with_dumbbells,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un squat_and_press_with_dumbbells.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : dumbbells
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="switch">
+<varlistentry>
+<term><indexterm><primary>switch</primary></indexterm>switch</term>
+<listitem>
+<simpara>Esercizio adatto al rafforzamento delle gambe. Si parte dalla posizione dell&#8217;affondo e con un balzo ci si porta nella posizione opposta.</simpara>
+<variablelist>
+<varlistentry>
+<term>Varianti</term>
+<listitem>
+<itemizedlist>
+<listitem>
+<simpara><emphasis><indexterm><primary>Switch Jump</primary></indexterm>Switch Jump</emphasis>: Come lo switch ma ogni 3 switch un jump.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis><indexterm><primary>Switch Squat</primary></indexterm>Switch Squat</emphasis> Come lo switch ma ogni 3 switch uno squat.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="step_up_onto_chair">
+<varlistentry>
+<term><indexterm><primary>step up onto chair</primary></indexterm>step up onto chair</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/step_up_onto_chair.svg"/>
+</imageobject>
+<textobject><phrase>step up onto chair.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>salita e discesa da una sedia</primary></indexterm>salita e discesa da una sedia.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: salire e scendere da una sedia.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : sedia <?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Effetti dell&#8217;esercizio.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+</section>
+<section xml:id="_superman">
+<title>Superman</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>posizione di superman</primary></indexterm>posizione di superman.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Da stesi pancia in giù, contrarre braccia e gambe per ottenere la posizione tipica di superman. <?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Rinforza core e dorsali.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/superman.svg"/>
+</imageobject>
+<textobject><phrase>superman.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_teaser">
+<title>Teaser</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>posizione a V</primary></indexterm>posizione a V.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: da seduti, rimanere in equilibrio sul sedere tenendo la posine a 'V'.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Effetti dell&#8217;esercizio.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/teaser.svg"/>
+</imageobject>
+<textobject><phrase>teaser.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<variablelist xml:id="triceps_dip_on_chair">
+<varlistentry>
+<term><indexterm><primary>triceps dip on chair</primary></indexterm>triceps dip on chair</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/triceps_dip_on_chair.svg"/>
+</imageobject>
+<textobject><phrase>triceps dip on chair.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>flessioni sui tricipiti con una sedia</primary></indexterm>flessioni sui tricipiti con una sedia.<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: fare i tricipiti appoggiandosi ad una sedia.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : sedia<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Rinforza i tricipiti.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="tuck_jump">
+<varlistentry>
+<term><indexterm><primary>tuck jump</primary></indexterm>tuck jump</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/tuck_jump.svg"/>
+</imageobject>
+<textobject><phrase>tuck jump.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>tuck jump</primary></indexterm>tuck jump,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un tuck jump.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist xml:id="wall_sit">
+<varlistentry>
+<term><indexterm><primary>wall sit</primary></indexterm>wall sit</term>
+<listitem>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/wall_sit.svg"/>
+</imageobject>
+<textobject><phrase>wall sit.svg</phrase></textobject>
+</inlinemediaobject><?asciidoc-br?>
+<emphasis>Sinomimi</emphasis>: <indexterm><primary>seduta con schiena al muro</primary></indexterm>seduta con schiena al muro<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: schiena appoggiata al muro, femori paralleli al terreno.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : muro<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: benefici quadricipiti.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<simpara>Mancano ToDo
+ jumping jack x 10, tuck jumps x 10)
+(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
+1 minute stop
+AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)</simpara>
+</section>
+</section>
+<section xml:id="_con_strumenti">
+<title>Con Strumenti</title>
+<section xml:id="_clean">
+<title>Clean</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>clean</primary></indexterm>clean.<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: Esercizio in 4 step.<?asciidoc-br?></simpara>
+<variablelist>
+<varlistentry>
+<term>Esecuzione <footnote><simpara>Eventuali riferimenti da ritrovare.</simpara></footnote></term>
+<listitem>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Partenza</simpara>
+<itemizedlist>
+<listitem>
+<simpara>chinati con le mani che afferrano il bilancere</simpara>
+</listitem>
+<listitem>
+<simpara>schiena leggermente inarcata.</simpara>
+</listitem>
+<listitem>
+<simpara>peso bilanciato sotto i piedi.</simpara>
+</listitem>
+<listitem>
+<simpara>sguardo in alto</simpara>
+</listitem>
+<listitem>
+<simpara>testa allineata ala schiena</simpara>
+</listitem>
+<listitem>
+<simpara>bilanciere a contatto con gli stinchi</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Stacco</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Spingi i piedi contro il terreno, tira indietro le ginocchia perchè il bilanciere muovendosi solo verso l&#8217;alto passi, sempre stando vicino al corpo..</simpara>
+</listitem>
+<listitem>
+<simpara>Lo stacco avviene lentamente e culmina in un movimento esplosivo con la piena estensione della schiena.</simpara>
+</listitem>
+<listitem>
+<simpara>Come la barra passa sopra le ginocchia, tieni il peso sui talloniil più possibile e comincia ad estendere le anche avanti</simpara>
+</listitem>
+<listitem>
+<simpara>Quando la barra arriva a mezza altezza, velocemente e con potenza estendi le anche, le ginocchia, le anche, i talloni.<?asciidoc-br?>
+Quando la barra prende inerzia solleva anche le spalle più velocemente possibile.
+La barra dovrebbe raggiungere la parte alta dei fianchi o del torace.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Atterraggio</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Appena cìè la completa estensione delle anche, porta il corpo sotto la sbarra, atterrando solidamente in front squat con lo sguardo in avanti.<?asciidoc-br?>
+Mentre lo fai ruota i gomiti avanti e sotto la barra, mollando la presa e permettendo ai polsi di girarsi verso l&#8217;alto. Fai posare la barra di fronte alle spalle, tra il picco dei deltoidi e la gola</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Finale</simpara>
+<itemizedlist>
+<listitem>
+<simpara>una volta che la barra è stabile, lentamente alzati fino alla posizione eretta. Se il peso è molto forte può essere più facile "rimbalzare" dalla posizione di squat senza pausa nella posizione bassa</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Abbassate o Mollate il peso in sicurezza</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+</varlistentry>
+</variablelist>
+<section xml:id="_clean_press">
+<title>clean press</title>
+<simpara>Come il clean ma si completa con un push press</simpara>
+</section>
+</section>
+<section xml:id="_triceps_press">
+<title>triceps_press</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>triceps_press</primary></indexterm>triceps_press<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un triceps_press<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/triceps_press.svg"/>
+</imageobject>
+<textobject><phrase>triceps press.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_modello_esercizio">
+<title>Modello Esercizio</title>
+<simpara><emphasis>Sinomimi</emphasis>: <indexterm><primary>nome</primary></indexterm>nome,<?asciidoc-br?>
+<emphasis>Esecuzione</emphasis>: Eseguire un nome.<?asciidoc-br?>
+<emphasis>Strumenti</emphasis> : nessuno<?asciidoc-br?>
+<emphasis>Effetti</emphasis>: fa bene.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/exercises/nome.svg"/>
+</imageobject>
+<textobject><phrase>nome.svg</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+</section>
+<section xml:id="_sequenze_varie">
+<title>Sequenze varie</title>
+<section xml:id="_circuito_mma">
+<title>Circuito MMA</title>
+<literallayout class="monospaced">Durata: 30'
+Necessari: barra, corda, dumbbell x 2</literallayout>
+<literallayout class="monospaced">PAUSE 30
+AMRAP 300(push ups x 20, dips X 10, pullups x 5, single up x 50)
+PAUSE 60
+AMRAP 300(double dumbbell x 10, burpees with dumbbell x 10, burpees, x 10)
+PAUSE 60
+AMRAP 300(high knees x 10, mountain climber x 10, jumping jack x 10, tuck jumps x 10)
+PAUSE 60
+AMRAP(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
+PAUSE 60
+AMRAP 300(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)</literallayout>
+</section>
+</section>
+<section xml:id="_crossfit">
+<title>Crossfit</title>
+<section xml:id="_esercizi_proposti">
+<title>Esercizi proposti</title>
+<section xml:id="_angie">
+<title>Angie</title>
+<simpara>For time:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>pull-up X 100</simpara>
+</listitem>
+<listitem>
+<simpara>push-up X 100</simpara>
+</listitem>
+<listitem>
+<simpara>sit-up X 100</simpara>
+</listitem>
+<listitem>
+<simpara>squat X 100</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Cap time 20 minutes <footnote xml:id="cfitjou"><simpara>CrossFit Journal Issue 13 - September 2003: <link xlink:href="http://library.crossfit.com/free/pdf/13_03_Benchmark_Workouts.pdf">link</link></simpara></footnote>.</simpara>
+</section>
+<section xml:id="_barbara">
+<title>Barbara</title>
+<simpara>5 rounds for time, 3 minutes rest between rounds:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>20 pull-ups</simpara>
+</listitem>
+<listitem>
+<simpara>30 push-ups</simpara>
+</listitem>
+<listitem>
+<simpara>40 sit-ups</simpara>
+</listitem>
+<listitem>
+<simpara>50 squats</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Cap time 3*3*5 &lt; 45 minutes <footnoteref linkend="cfitjou"/></simpara>
+</section>
+<section xml:id="_chelsea">
+<title>Chelsea</title>
+<simpara>Each round on the minute for 30 minutes <footnoteref linkend="cfitjou"/>:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Pull up X 5</simpara>
+</listitem>
+<listitem>
+<simpara>Push up X 10</simpara>
+</listitem>
+<listitem>
+<simpara>Squat X 15</simpara>
+</listitem>
+</itemizedlist>
+<simpara>40 seconds and 20 rest.</simpara>
+</section>
+<section xml:id="_diane">
+<title>Diane</title>
+<simpara>21-15-9 reps. 3 round for time  <footnoteref linkend="cfitjou"/>.</simpara>
+<simpara>For rookies 7-5-3</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Deadlift 100 kg</simpara>
+</listitem>
+<listitem>
+<simpara>Handstand push- ups</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_elizabeth">
+<title>Elizabeth</title>
+<simpara>21-15-9 reps. 3 round for time  <footnoteref linkend="cfitjou"/>.</simpara>
+<simpara>For rookies 7-5-3</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Clean 60 kg</simpara>
+</listitem>
+<listitem>
+<simpara>Ring Dips</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_fran">
+<title>Fran</title>
+<simpara>21-15-9 reps. 3 round for time <footnoteref linkend="cfitjou"/>.</simpara>
+<simpara>For rookies 7-5-3</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Thruster 45 kg</simpara>
+</listitem>
+<listitem>
+<simpara>Pull-ups</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_sidio">
+<title>Sidio</title>
+<formalpara>
+<title>150929</title>
+<para>10 minuti snatch per 2 ripetizioni</para>
+</formalpara>
+<simpara>5 reps:
+     20 Sit up
+     10 Deadlift
+     5 Weighted toes to bar</simpara>
+<formalpara>
+<title>16052016 full body</title>
+<para>Buy in X3:</para>
+</formalpara>
+<literallayout class="monospaced">10 indu push up
+10 reverse crunch
+10 air squat</literallayout>
+<simpara>Then:</simpara>
+<literallayout class="monospaced">Every 4' for 20':
+5 handstand push up
+10 toes to bar
+20 alternate pistol squat</literallayout>
+<simpara>The End</simpara>
+</section>
+</section>
+</section>
+</chapter>
+</book>

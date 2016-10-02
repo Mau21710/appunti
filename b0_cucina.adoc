@@ -1,0 +1,29 @@
+////
+
+:doctype: article
+:author: Maurizio Stagni
+:description: vari appunti interessanti
+:keywords: Ricette, cucina
+:lang: it
+
+
+:lang: it
+
+:pdf-page-size: A4
+:toc:
+:toc-placement: preambe
+:toc-level: 4
+
+////
+
+== Cucina
+
+=== Ricette
+
+==== Ricetta Nachos
+
+
+- 200 gr farina di mais
+- 30 ml acqua
+- 200 gr farina
+- sale

@@ -1,0 +1,9 @@
+((Anchoring)),  "tendency to rely too heavily on the first piece of information offered (the "anchor") when making decisions."
+((False Consensus)), "a person tends to overestimate the extent to which their beliefs or opinions are typical of those of others."
+A ((Channel Factor)), Channel factors are small but critical factors that facilitate or create barriers for behavior.
+The Fundamental Attribution Error, The tendency for people to over-emphasize personality-based explanations for behaviors observed in others while under-emphasizing the role and power of situational influences on the same behavior
+The ((Fundamental Cognitive Error)),  People tend to underestimate the contribution of their beliefs & theories to observation & judgement 
+((Cognitive Dissonance)),  "mental stress or discomfort experienced by an individual who holds two or more contradictory beliefs, ideas, or values at the same time, performs an action that is contradictory to one or more beliefs, ideas or values, or is confronted by new information that conflicts with existing beliefs, ideas, or values."
+((Hindsight bias)), "after an event has occurred, to see the event as having been predictable, despite there having been little or no objective basis for predicting it."
+((Illusory correlation)), "is the phenomenon of perceiving a relationship between variables (typically people, events, or behaviors) even when no such relationship exists."
+Representativeness heuristic, 

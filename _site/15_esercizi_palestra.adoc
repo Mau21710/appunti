@@ -1,0 +1,328 @@
+
+
+=== Riscaldamento
+
+7 minuti.
+
+Suggeriti:
+
+-   7 minutes workout
+-   MP Style warm up
+
+==== MP Style warm up
+
+Si eseguono gli esercizi con la seguente sequenza:
+
+-   1
+-   1, 2
+-   1, 2, 3
+
+Sequenza suggerita:
+
+1.  Step Base
+2.  Step con mano in taglio
+3.  Step con mano in alto
+4.  Jumping Jacks
+5.  *ToDo* completare
+
+
+=== Sequenze
+
+==== 7 minutes workout
+
+In 12 exercises deploying only body weight, a chair and a wall, it
+fulfills the latest mandates for high-intensity effort, which
+essentially combines a long run and a visit to the weight room into
+about seven minutes of steady discomfort — all of it based on
+science. footnote:[http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout/?_r=0[Here] for the full article]
+
+For each exercises 30 sec hard workout, 10 seconds rest.
+
+------------
+  Stp   Exercise
+
+  01    Jumping jacks
+  03    Wall sit
+  05    Push up
+  07    Abdominal crunch
+  09    Step up onto Chair
+  11    Air squat
+  13    Triceps dip on chair
+  15    Plank
+  17    High knees running
+  19    Lunges
+  21    Push up and rotation
+  23    Side Plank
+  
+------------
+
+
+The even steps are all *rest* and are omitted
+
+==== RED
+
+Esercizi caratterizzati da una buona risposta muscolare.
+
+Tipicamente un allenamento RED dura circa 45 minuti ed è composto da:
+
+- Riscaldamento 7 min
+- Agilità 5 minuti
+- Forza 6 minuti
+- Esercizi dinamici 4 minuti
+- Agilità 5 minuti
+- Crunch 5-6 minuti
+- Esercizi dinamici 4 minuti
+- Forza 5 minuti
+- Stretching
+
+Tranne il riscaldamento e lo stretching il resto non per forza in questo
+ordine.
+
+
+===== Esercizi dinamici
+
+Detti anche *metabolic boosters* Tipicamente Tabata 20s lavoro -10s
+riposo. Due esercizi per 4 volte.
+
+4 minuti totale.
+
+Scegliere un lavoro concentrato ed uno più completo.
+
+* Concentrati: 
+    ** Gambe: 
+        *** Affondo e torsione con pesi X 3. Quarto movimento squat con peso sopra la testa.
+        *** Mountain climber
+        *** Squat jump
+        *** Squat side to side
+        *** Switch
+        *** Switch jump
+    ** Core 
+        *** Rollè alto
+        *** Plank superman
+    ** Spalle
+        *** Spiderman push up
+*Esercizi più completi:
+    ** Burpee
+    ** Geko
+    ** Jumping jack con pesetti
+    ** Power cobra
+    ** Roll up e jump
+    ** Squat mani in alto
+
+===== Forza
+
+5 minuti
+
+Scegliere un esercizio o due per la forza.
+
+1a serie massimo numero ripetizioni, le altre a scendere
+
+-   4x (alternando se due esercizi):
+    -   1.5 minuto
+    -   .5 min recupero
+
+Esercizi suggeriti:
+
+-   Clean
+-   Front Squat + Shoulder press (Thrusters)
+-   Pull up
+-   Remata
+-   Squat press
+-   Stacco
+
+
+===== Agilità
+
+5 minuti, cambi a chiamata del trainer; se si è da soli AMRAP da 8 a 16
+per tipo.
+
+A scelta uno tra i concentrati e uno di quelli che coinvolgono più
+fasce:
+
+* Concentrati
+    ** Core
+        *** Hip escape
+        *** Plank to teaser
+        *** Rollè alto
+    ** Gambe
+        *** Switch
+        *** Sumo squat e salto toccandosi i talloni
+        *** Corsa sul posto. 4 passetti veloci. e poi salto di 180° atterrando in squat. Salto di 180° e di nuovo corsetta. I passi più veloci possibili
+*   Coinvolgenti più fasce
+    *** DownDog To Bridge
+    *** Power cobra
+    *** Switch Squat
+    *** Rollata e jump
+    *** Roll down, addominali per sollevare le gambe, Roll up and jump
+    *** Burpees con salto sollevando le ginocchia
+    
+
+===== Blocco Core
+
+de esercizi tra quelli sotto, per 5 minuti, cambi a chiamata del trainer; se si è da soli AMRAP da 8 a 16
+per tipo
+
+* Crunch with weight
+* Plank to teaser
+* Plank walk
+* Criss cross to teaser
+* Crunch centro e due laterali
+* Plank
+* Plank and rotation con un peso da 5Kg
+
+===== Realizzazione 1
+
+Prima realizzazione esercizi Red. 36 minuti circa.
+
+-   7 minuti Riscaldamento
+    -   7 minutes workout
+-   4 minuti Esercizi dinamici. Tabata 20-10 con:
+    -   Switch
+    -   Burpees
+-   6 minuti Blocco di forza:
+    -   Clean Press
+-   4 minuti Esercizi dinamici. Tabata 20-10 con:
+    -   Switch
+    -   Burpee
+-   5 min Agilità, AMRAP:
+    -   Hip Escape X 16
+    -   DownDog To Bridge X 16
+-   6 minuti Blocco Core. AMRAP:
+    -   Crunch with weight
+    -   Plank to teaser
+-   5 minuti Agilità. AMRAP:
+    -   Hip Escape X 16
+    -   DownDog To Bridge X 16
+
+===== Realizzazione 2
+
+Esercizi Red. 38 minuti circa.
+
+-   7 minuti Riscaldamento
+    -   7 minutes workout
+-   5 min Agilità, AMRAP:
+    -   Plank to teaser X 10
+    -   Switch Squat X 10
+    -   Hip escape X 10
+-   6 minuti Blocco di forza:
+    -   Clean Press
+-   4 minuti Esercizi dinamici. Tabata 20-10 con:
+    -   Mountain climber
+    -   Spiderman Push up
+-   5 min Agilità, AMRAP:
+    -   Geko X 10
+    -   Rollè alto X 10
+-   4 minuti Esercizi dinamici. Tabata 20-10 con:
+    -   Switch jump
+    -   Squat side to side
+-   6 minuti Blocco Core. AMRAP:
+    -   Plank walk X 10
+    -   Criss cross to teaser X 10
+
+===== Realizzazione 3
+
+Esercizi Red. 38 minuti circa.
+
+-   7 minuti Riscaldamento
+    -   7 minutes workout
+-   4 minuti Esercizi dinamici. Tabata 20-10:
+    -   Burpee
+    -   Squat jump
+-   6 minuti Blocco di forza:
+    -   Remata
+-   5 minuti Agilità. AMRAP:
+    -   Switch X 6
+    -   Rollata su tappetino e jump X 6
+    -   Rollè alto X 6
+-   4 minuti Esercizi dinamici. Tabata 20-10:
+    -   Burpee
+    -   Squat jump
+-   6 minuti Blocco Core. AMRAP:
+    -   Plank walk X 10
+    -   Crunch with weight X 10
+-   5 min Agilità, AMRAP:
+    -   Spiderman push up
+    -   Hip escape
+
+==== Core
+
+Il core è la parte centrale del corpo. É composta di tre fasce:
+
+===== Iacopo
+
+Steso a pancia in su a quadrupedia ribaltata:
+
+-   2 X:
+    -   sollevare (portare parallelo al terreno) un braccio
+    -   tornare
+    -   stendere una gamba a 45° dal terreno
+    -   tornare
+-   2 X:
+    -   esercizio precedente ma con braccio e gamba opposte
+
+Tentare lo stesso esercizio con tutte le direzioni possibili degli arti
+
+==== Grid Fit
+
+===== Palestra grid fit 20150821 40/20
+
+-   Push up su palla medica
+-   Deadlift
+-   Push up and rotation
+-   Sacco bulgaro
+-   Swing
+-   Mountain jumper
+-   Squatting jacks
+
+===== Grid Active  20150821
+
+
+* Burpee con pallamedica (clean jerk al posto del salto)
+* Pull ups
+* Push ups
+* Squats
+* Renegade (Addominali vogando)
+* Scalino con una gamba sola
+* Stacco da terra
+
+==== TRX
+
+===== 20150821 Trx tabata 20\_10 rest 1 min a fine sequenza
+
+-   Push up su palla medica
+-   Deadlift
+-   Push up and rotation
+-   Sacco bulgaro
+-   Swing
+-   Mountain jumper
+-   Squatting jacks
+
+
+==== Elenco Esercizi fatti in palestra
+
+===== 20150730 - VA grid 40s r20s X3
+
+-   pull ups
+-   triceps dips
+-   affondi
+-   clean press
+-   burpees
+-   push ups
+
+==== Suggeriti
+
+===== 8 esercizi base da fare benissimo
+
+Ecco gli 8 esercizi base che fatti ottimamente stabilizzano la postura.
+footnote:[http://www.mensjournal.com/expert-advice/the-only-8-moves-you-need-to-be-fit-20140306?utm_source=zergnet.com&utm_medium=referral&utm_campaign=zergnet_245652[Mensjournal.com
+    20140306]]
+
+-   Classic Push-Up
+-   Overhead Press
+-   Pull-Up and Chin-Up
+-   Row
+-   Squat
+-   Kettlebell Swing
+-   Dead Lift
+-   Walking Lunge
+

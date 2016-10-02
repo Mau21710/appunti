@@ -1,0 +1,8 @@
+
+== Android
+
+=== Debloater
+
+Debloater is a utility that runs on your computer. If you have adb installed, just connect your phone via USB and you can scan your phone for all the included packages. You can quickly filter all the packages on your phone and select the ones you want to batch disable or remove.
+
+
