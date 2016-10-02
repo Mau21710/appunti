@@ -84,7 +84,7 @@ blablabla
 * moebious
 
 
-=== FIlms
+=== Films
 
 * Commedie
   ** Sideways
@@ -153,20 +153,10 @@ http://www.moddingstudio.com/showthread.php?2533-SoftMod-tramite-Free-MC-Boot-(n
 * Scrittura
 	** http://www.handwritingworksheets.com
 
-
+* Speaking
+	** https://www.youtube.com/user/BBAPresentations/videos[BBA suggerimenti speech]
 
    
-
-=== Cose da Comprare
-
-    * Telefoni
-        ** Doogee F2 Ibiza
-
-Sugg Roffi 
-* Blackview
-* 130
-* Cubot
-
 		
 === Corsi da fare
 
@@ -175,7 +165,6 @@ Sugg Roffi
 * https://www.futurelearn.com/courses/the-science-of-nutrition
 * https://www.udemy.com/chess-tactics-101/
 * https://www.coursera.org/learn/negotiationf
-
 
 == Tecnologie Interessanti
 

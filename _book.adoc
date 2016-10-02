@@ -1,24 +1,43 @@
 
+
 = Appunti
-Maurizio Stagni <comeunbalconeATgmail.com>
-v1.0, 160426
 
 :doctype: book
+:encoding: utf-8
+:description: vari appunti interessanti
+:lang: it
+:pdf-page-size: A5
+:toc: macro
+:toclevels: 5
+:toclevel: 5
+:numbered:
+
+
+Appunti sparsi.
+
+toc::[]
+
+
+include::11_esercizi.adoc[]
+
+include::20_stretching.adoc[]
+
+
+////
+
+Maurizio Stagni 
+v160930
+
+:doctype: article
+:author: Maurizio Stagni
 :description: vari appunti interessanti
 :keywords: Esercizi, Mindfulness
 :lang: it
 :pdf-page-size: A4
-:author: Maurizio Stagni
-:toc: left
-:toclevels: 4
+:toc: macro
+:toclevels: 5
 
 
-////
-:imagesdir: .
-:imagesdir: /home/maurizio/Mao/GDrive/Fitness/MentorBook/
-:encoding: utf-8
-:producer: Asciidoctor
-:toclevels: 3
 :numbered:
 :copyright: CC-BY-SA 3.0
 :imagesdir: images
@@ -30,18 +49,12 @@ v1.0, 160426
 Change Book Name, Author's Name and Language for your need.
 toc::[]
 
-////
-
-
-
 include::00_intestazione.adoc[]
-include::11_esercizi.adoc[]
-include::12_crossfit.adoc[]
+
 include::13_esercizi_zuu.adoc[]
 include::14_yoga.adoc[]
 include::15_esercizi_palestra.adoc[]
 include::16_calisthenics.adoc[]
-include::20_stretching.adoc[]
 include::21_posturali.adoc[]
 include::30_salute.adoc[]
 include::40_comunicazione.adoc[]
@@ -59,7 +72,6 @@ include::50_4_windows.adoc[]
 include::60_business.adoc[]
 include::70_felicita.adoc[]
 
-////
 include::71_felicita.adoc[]
 include::72_felicita.adoc[]
 include::72_felicita_stud.adoc[]
@@ -68,21 +80,19 @@ include::74_esercizio.adoc[]
 include::74_felicita.adoc[]
 include::75_felicita.adoc[]
 include::76_felicita.adoc[]
-////
 
 
 include::80_ciappini.adoc[Ciappini]
 include::90_vacanze.adoc[Vacanze]
 include::99_risorse.adoc[Risorse]
-include::aa_giochi.adoc[giochi]
+include::a0_giochi.adoc[Giochi]
+include::b0_cucina.adoc[Cucina]
 
-////
 == Index
+
 Indice dei nomi
 .Index terms
 index::[]
 ////
 
-
-
-
+The End

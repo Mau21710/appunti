@@ -1,7 +1,6 @@
 
 === Esercizi stretching
 
-==== Esercizi
 
 [[arco_plantare]]
 ((arco plantare)):: 
@@ -14,6 +13,15 @@
     image:figures/stretching/gambe_posteriore.png[role=right]
     _Esecuzione_: Vedere figura. +
     _Effetti_: Fa bene.    
+
+
+==== Psoas
+
+Sequenza per allungamento psoas.
+
+image::figures/stretching/psoas.svg[]
+
+image::figures/stretching/psoas2.svg[]
 
 
 [[popliteo]]
@@ -90,8 +98,9 @@
 
 -   rotazione ed estensione dell'omero per ogni braccio
 
-==== Sequenze
 
+
+==== Sequenze
 
 .Post Running footnote:[arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2]
 [cols="^1,2,1"]

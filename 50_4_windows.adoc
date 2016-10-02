@@ -1,3 +1,9 @@
+:doctype: article
+:author: Maurizio Stagni
+:description: vari appunti interessanti
+:keywords: informatica, windows
+:lang: it
+:pdf-page-size: A4
 :toc:
 :toc-placement: preambe
 :toc-level: 4
@@ -12,6 +18,10 @@ Inserire nella barra di ricerca.
 	msconfig 
 
 Si avvierà l’utility di configurazione di sistema
+
+=== Icone standard
+
+	C:\windows\system\shell32.dll
 
 === Net Use
 
@@ -52,3 +62,4 @@ Quick Launch toolbar,  %userprofile%\Application Data\Microsoft\Internet Explore
 
 
 
+include::sacmi.adoc[]

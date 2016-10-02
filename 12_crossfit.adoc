@@ -90,27 +90,6 @@ Then:
     20 alternate pistol squat
 
 
-=== Tipologie d'allenamento
-
-Amrap 4X5'::
- ** Gambe
-  *** Plyometric Jump
- ** Braccia. Scegliere tra i seguenti.
-  *** Barbell:
-   **** *10*  High Pull
-   **** *10* Barbell Row
-   **** *10* Shoulder press
-   **** *10* Clean
- ** Spalle, dorsali
-   *** Rowing
- ** Core
-  *** *10* Wall Ball
-  *** *10* Half burpees
-  
-
-	
-
-
 	
 
 

@@ -1,6 +1,15 @@
-:toc:
-:toc: merge
-:toclevels: 4
+:doctype: article
+:author: Maurizio Stagni
+:description: vari appunti interessanti
+:keywords: fitness, esercizi
+:lang: it
+:pdf-page-size: A4
+
+:toc: macro
+:toclevels: 5
+
+toc::[]
+
 
 == Appunti Linux
 

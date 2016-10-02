@@ -1,151 +1,139 @@
-:toc:
-:toc-placement: preambe
-:toc-level: 4
+//// 
+:doctype: article
+:author: Maurizio Stagni
+:description: vari appunti interessanti
+:keywords: fitness, esercizi
+:lang: it
+:pdf-page-size: A4
+
+:toc: macro
+:toclevels: 5
+
+toc::[]
+
+////
+
+== Esercizi Fitness
 
 
-== Elenco Esercizi
 
 === Corpo libero
 
-[[air_squat]]
-((air squat)):: 
-    image:figures/exercises/air_squat.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((accosciata)), ((squat)) + 
-    _Esecuzione_: Esercizio che prevede il passaggio dalla posizione eretta a quella accosciata: gambe flesse oltre i 90°, schiena eretta, peso sulla pianata del piede. Le braccia possono essere parallele al terreno o più sollevate. +
-    _Effetti_: migliora la flessibilità, e la muscolatura. 
+==== addominali
+
+_Sinomimi_: ((crunch)). + 
+_Effetti_: 6 pack.
+
+image::figures/exercises/crunch.svg[]
+
+Esecuzione:: Da supini flettere leggermente le gambe, portare le mani dietro la nuca e seguire la seguente sequenza: 
+. rotazione del bacino
+. col bacino extraruotato (colonna vertebrale che poggia a terra) contrarre gli addominali, fino a sollevare le spalle.
+. decontrarre gli addominali
+. riportare in posizione rilassata il bacino.
 
 
-((air squat, varianti))::
-	** ((squat jump)): Esercizio adatto al rafforzamento delle gambe 
-	** Squat press
-	** Squat side to side
-		1.  Scendo in squat con una delle due gambe in affondo laterale
-		2.  Salto nella direzione opposta alla gamba in affondo
-		3.  Atterro specularmente al punto 1
+image::figures/exercises/addominali_dettaglio.svg[]
+
+===== addominali bassi a ponte
 
 
-[[bastard_burpee]]
-((bastard burpee)):: 
-    image:figures/exercises/bastard_burpee.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((burpee bastardo)). +
-    _Esecuzione_: Come il burpee, ma con 2 flessioni. +
-    _Effetti_: Phisico!.
-
-
-[[burpee]]
-((burpee)):: 
-    image:figures/exercises/burpee.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((burpeee)). +
-    _Esecuzione_: Il burpee è un esercizio full bodyfootnote:[https://it.wikipedia.org/wiki/Burpee]. Il movimento base si divide in 4 passaggi: +
-    0 Partenza in posizione eretta. +
-    1 Si passa in posizione di squat con le mani a terra. +
-    2 Si lanciano i piedi indietro tenendo le mani a terra. +
-    3 Subito si riportano i piedi in posizione di Squat. +
-    4 Si salta dalla posizione di squat verso l'alto +
-    _Effetti_: Effetti dell'esercizio.
-
-[[burpee_with_dumbbells]]
-((burpee with dumbbells)):: 
-    image:figures/exercises/burpee_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((burpee with dumbbells)), + 
-    _Esecuzione_: Eseguire un burpee_with_dumbbells. +
-    _Strumenti_ : dumbbell x 2
-    _Effetti_: fa bene.
+image::figures/exercises/addominale_basso.svg[]
 
 
 
-[[clean]]
-((clean)):: 
-    image:figures/exercises/clean.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((clean)). +
-    _Effetti_: Esercizio in 4 step. +
-    _Esecuzione_: Istruzioni per l'esecuzione. Eventuali riferimenti. +
-    . Partenza 
-        ** chinati con le mani che afferrano il bilancere 
-        ** schiena leggermente inarcata.
-        ** peso bilanciato sotto i piedi.
-        ** sguardo in alto
-        ** testa allineata ala schiena
-        ** bilanciere a contatto con gli stinchi
-    . Stacco
-        ** Spingi i piedi contro il terreno, tira indietro le ginocchia perchè il bilanciere muovendosi solo verso l'alto passi, sempre stando vicino al corpo..
-        ** Lo stacco avviene lentamente e culmina in un movimento esplosivo con la piena estensione della schiena.
-        ** Come la barra passa sopra le ginocchia, tieni il peso sui talloniil più possibile e comincia ad estendere le anche avanti
-        ** Quando la barra arriva a mezza altezza, velocemente e con potenza estendi le anche, le ginocchia, le anche, i talloni. +
-        Quando la barra prende inerzia solleva anche le spalle più velocemente possibile.
-        La barra dovrebbe raggiungere la parte alta dei fianchi o del torace.
-    . Atterraggio
-        ** Appena cìè la completa estensione delle anche, porta il corpo sotto la sbarra, atterrando solidamente in front squat con lo sguardo in avanti. +
-        Mentre lo fai ruota i gomiti avanti e sotto la barra, mollando la presa e permettendo ai polsi di girarsi verso l'alto. Fai posare la barra di fronte alle spalle, tra il picco dei deltoidi e la gola
-    . Finale
-        ** una volta che la barra è stabile, lentamente alzati fino alla posizione eretta. Se il peso è molto forte può essere più facile "rimbalzare" dalla posizione di squat senza pausa nella posizione bassa
-    . Abbassate o Mollate il peso in sicurezza
+===== addominali bassi a ponte
+
+image::figures/exercises/addominale_basso_gamba.svg[]
 
 
-((clean varianti)):: 
-    * _((clean press))_: come il clean ma si completa con un push press
+===== addominali completi
+
+Stessi dettagli degli addominali ma con le gambe solevate da terra
+
+image::figures/exercises/addominale_variante_completa.svg[]
+
+===== addominali con peso
+
+_Sinomimi_: ((addominali con peso)). + 
+_Esecuzione_: Da supini flettere leggermente le gambe, stendersi supini ocn il peso afferrato con entrambe le mani allineato alla testa, sollevare il peso ed alzarsi. +
+_Effetti_: 6 pack.
+
+image::figures/exercises/crunch_with_weight.svg[]
+
+===== addominali obliqui
+
+Dalla posizione base dell'addominale ruotare le spalle e portarsi alla posizione sotto indicata.
+
+image::figures/exercises/addominali_obliqui.svg[]
+
+        
+==== burpee
+
+_Sinomimi_: ((burpeee)). +
+_Effetti_: Effetti dell'esercizio.
+
+_Esecuzione_:: 
+Il burpee è un esercizio full bodyfootnote:[https://it.wikipedia.org/wiki/Burpee]. Il movimento base si divide in 4 passaggi:
+0. Partenza in posizione eretta. +
+1. Si passa in posizione di squat con le mani a terra. +
+2. Si lanciano i piedi indietro tenendo le mani a terra. +
+3. Subito si riportano i piedi in posizione di Squat. +
+4. Si salta dalla posizione di squat verso l'alto
 
 
-[[crunch]]
-((crunch)):: 
-    image:figures/exercises/crunch.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((addominali)). + 
-    _Esecuzione_: Da supini flettere leggermente le gambe, portare le mani dietro la nuca e contrarre gli addominali,     senza che le mani spingano sulla testa. +
-    _Effetti_: 6 pack.
+image::figures/exercises/burpee.svg[] 
 
+
+===== burpee bastardo
+
+_Sinomimi_: ((burpee bastardo)). +
+_Esecuzione_: Come il burpee, ma con 2 flessioni. +
+_Effetti_: Phisico!.
+
+image::figures/exercises/bastard_burpee.svg[]
+
+===== burpee con pesi
+
+_Sinomimi_: ((burpee with dumbbells)), + 
+_Esecuzione_: Eseguire un burpee_with_dumbbells. +
+_Strumenti_ : dumbbell x 2
+_Effetti_: fa bene.
+
+image::images/burpee_with_dumbbells.svg[]
+
+
+==== Camaleonte
+
+_Sinomimi_: ((mossa del camaleonte)), + 
+_Esecuzione_: Si parte in quadrupedia, poi si avanza il busto parallelamente al terreno fino a trovarsi in posizione di flessione. Poi ritorno. +
+_Effetti_: fa bene.
+
+image::images/camaleonte.svg[]
+
+
+
+==== criss_cross
+
+_Sinomimi_: ((posizione del criss cross)). +
+_Esecuzione_: addominali fatti a ginocchia alte con le gambe a 90 gradi. Portare mani dietro la nuca. Si portano le ginocchia alternate al petto ruotando il busto per toccare le ginocchia con il gomito opposto. +
+_Effetti_: Rinforzo Core.
+
+image::figures/exercises/criss_cross.svg[]
     
-[[crunch_with_weight]]
-((crunch with weight)):: 
-    image:figures/exercises/crunch_with_weight.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((addominali con peso)). + 
-    _Esecuzione_: Da supini flettere leggermente le gambe, stendersi supini ocn il peso afferrato con entrambe le mani allineato alla testa, sollevare il peso ed alzarsi. +
-    _Effetti_: 6 pack.
+==== Criss Cross to Teaser
 
-    
-
-[[criss_cross]]
-((criss_cross)):: 
-    image:figures/exercises/criss_cross.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((posizione del criss cross)). +
-    _Esecuzione_: addominali fatti a ginocchia alte con le gambe a 90 gradi. Portare mani dietro la nuca. Si portano le ginocchia alternate al petto ruotando il busto per toccare le ginocchia con il gomito opposto. +
-    _Effetti_: Rinforzo Core.
-
-    ** _((Criss Cross to Teaser))_: 3 movimenti di criss cross e si sta per un secondo in posizione teaser
+3 movimenti di criss cross e si sta per un secondo in posizione teaser
 
 
-[[downdog_to_bridge]]
-((downdog to bridge)):: 
-    image:figures/exercises/downdog_to_bridge.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((movimento da cane a faccia in giù a ponte)). +
-    _Esecuzione_: Da Cane faccia in giù fino a ponte faccia all'aria. +
-    _Effetti_: Esercizio che coinvolge più fasce.
+==== Downdog to bridge
 
- 
-[[double_dumbbell]]
-((double_dumbbell)):: 
-    image:figures/exercises/double_dumbbell.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((double dumbbell)), + 
-    _Esecuzione_: Eseguire un double dumbbell. +
-    _Strumenti_ : dumbell x 2 +
-    _Effetti_: fa bene.
+_Sinomimi_: ((movimento da cane a faccia in giù a ponte)). +
+_Esecuzione_: Da Cane faccia in giù fino a ponte faccia all'aria. +
+_Effetti_: Esercizio che coinvolge più fasce.
 
-[[dumbbell_biceps_curl]]
-((dumbbell_biceps_curl)):: 
-    image:figures/exercises/dumbbell_biceps_curl.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((dumbbell_biceps_curl)), + 
-    _Esecuzione_: Eseguire un dumbbell_biceps_curl. +
-    _Strumenti_ : nessuno
-    _Effetti_: fa bene.
-
-[[dumbbell_front_raise]]
-((dumbbell_front_raise)):: 
-    image:figures/exercises/dumbbell_front_raise.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((dumbbell_front_raise)), + 
-    _Esecuzione_: Eseguire un dumbbell_front_raise. +
-    _Strumenti_ : nessuno
-    _Effetti_: fa bene.
-
-
+image:figures/exercises/downdog_to_bridge.svg[]
+     
 [[front_squat]]
 ((front squat)):: 
     image:figures/exercises/front_squat.svg[role=right, align=right,  pdfwidth=5cm] +
@@ -239,6 +227,12 @@
     _Effetti_: fa bene.
 
     
+==== Ponte
+
+image::figures/exercises/ponte.svg[]
+
+
+
 [[power_clean]]
 ((power_clean)):: 
     image:figures/exercises/power_clean.svg[role=right, align=right,  pdfwidth=5cm] +
@@ -337,105 +331,196 @@
     _Esecuzione_: Si parte dalla posizione base dell'addominale con le braccia alzate e gambe stese (parallele al terreno) e si esegue raccogliendo le gambe e le braccia, portandosi in posizione seduta. +
     _Effetti_: 6 pack.
 
+==== Squat
+_Sinomimi_: ((accosciata)), ((air squat)) + 
+_Esecuzione_: Esercizio che prevede il passaggio dalla posizione eretta a quella accosciata: gambe flesse oltre i 90°, schiena eretta, peso sulla pianata del piede. Le braccia possono essere parallele al terreno o sollevate. +
+_Effetti_: migliora la flessibilità, e la muscolatura. 
 
-[[squat_and_press_with_dumbbells]]
-((squat and press with dumbbells)):: 
-    image:figures/exercises/squat_and_press_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((squat_and_press_with_dumbbells)), + 
-    _Esecuzione_: Eseguire un squat_and_press_with_dumbbells. +
-    _Strumenti_ : dumbbells
-    _Effetti_: fa bene.
+image::figures/exercises/air_squat.svg[]
 
+===== Squat Jump
 
+Variante con salto alla fine della posizione eretta
 
-[[switch]]
-((switch)):: Esercizio adatto al rafforzamento delle gambe. Si parte dalla posizione dell'affondo e con un balzo ci si porta nella posizione opposta.
+===== Squat side to side
 
-	Varianti:::
-		* _((Switch Jump))_: Come lo switch ma ogni 3 switch un jump.
-		* _((Switch Squat))_ Come lo switch ma ogni 3 switch uno squat.
+1.  Scendo in squat con una delle due gambe in affondo laterale
+2.  Salto nella direzione opposta alla gamba in affondo
+3.  Atterro specularmente al punto 1
 
+===== squat and press with dumbbells 
+_Sinomimi_: ((squat_and_press_with_dumbbells)), + 
+_Esecuzione_: Eseguire un squat_and_press_with_dumbbells. +
+_Strumenti_ : dumbbells .
+_Effetti_: fa bene.
 
-[[step_up_onto_chair]]
-((step up onto chair)):: 
-    image:figures/exercises/step_up_onto_chair.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((salita e discesa da una sedia)). +
-    _Esecuzione_: salire e scendere da una sedia. +
-    _Strumenti_ : sedia  +
-    _Effetti_: Effetti dell'esercizio.
+image::figures/exercises/squat_and_press_with_dumbbells.svg[]
 
 
-[[superman]]
-((superman)):: 
-    image:figures/exercises/superman.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((posizione di superman)). +
-    _Esecuzione_: Da stesi pancia in giù, contrarre braccia e gambe per ottenere la posizione tipica di superman.  +
-    _Strumenti_ : nessuno  +
-    _Effetti_: Rinforza core e dorsali.
+==== Switch
+
+Esercizio adatto al rafforzamento delle gambe. Si parte dalla posizione dell'affondo e con un balzo ci si porta nella posizione opposta.
+
+===== Switch Jump
+
+Come lo switch ma ogni 3 switch un jump.
+
+===== Switch Squat
+
+Come lo switch ma ogni 3 switch uno squat.
 
 
+==== step_up_onto_chair
 
-[[teaser]]
-((teaser)):: 
-    image:figures/exercises/teaser.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((posizione a V)). +
-    _Esecuzione_: da seduti, rimanere in equilibrio sul sedere tenendo la posine a 'V'. +
-    _Effetti_: Effetti dell'esercizio.
-
-[[triceps_dip_on_chair]]
-((triceps dip on chair)):: 
-    image:figures/exercises/triceps_dip_on_chair.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((flessioni sui tricipiti con una sedia)). +
-    _Esecuzione_: fare i tricipiti appoggiandosi ad una sedia. +
-    _Strumenti_ : sedia +
-    _Effetti_: Rinforza i tricipiti.
-
-[[triceps_press]]
-((triceps_press)):: 
-    image:figures/exercises/triceps_press.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((triceps_press)), + 
-    _Esecuzione_: Eseguire un triceps_press. +
-    _Strumenti_ : nessuno +
-    _Effetti_: fa bene.
+_Sinomimi_: ((salita e discesa da una sedia)). +
+_Esecuzione_: salire e scendere da una sedia. +
+_Strumenti_ : sedia  +
+_Effetti_: Effetti dell'esercizio.
 
 
-[[tuck_jump]]
-((tuck jump)):: 
-    image:figures/exercises/tuck_jump.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((tuck jump)), + 
-    _Esecuzione_: Eseguire un tuck jump. +
-    _Strumenti_ : nessuno +
-    _Effetti_: fa bene.
+image::figures/exercises/step_up_onto_chair.svg[]
+    
+
+==== Superman
+
+_Sinomimi_: ((posizione di superman)). +
+_Esecuzione_: Da stesi pancia in giù, contrarre braccia e gambe per ottenere la posizione tipica di superman.  +
+_Strumenti_ : nessuno +
+_Effetti_: Rinforza core e dorsali.
+
+image::figures/exercises/superman.svg[] 
 
 
-[[wall_sit]]
-((wall sit)):: 
-    image:figures/exercises/wall_sit.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((seduta con schiena al muro)) + 
-    _Esecuzione_: schiena appoggiata al muro, femori paralleli al terreno. +
-    _Strumenti_ : muro +
-    _Effetti_: benefici quadricipiti.
+==== Teaser
 
+_Sinomimi_: ((posizione a V)). +
+_Esecuzione_: da seduti, rimanere in equilibrio sul sedere tenendo la posine a 'V'. +
+_Effetti_: Effetti dell'esercizio.
+
+image::figures/exercises/teaser.svg[]
+
+==== Triceps dip on chair
+
+_Sinomimi_: ((flessioni sui tricipiti con una sedia)). +
+_Esecuzione_: fare i tricipiti appoggiandosi ad una sedia. +
+_Strumenti_ : sedia +
+_Effetti_: Rinforza i tricipiti.
+
+image::figures/exercises/triceps_dip_on_chair.svg[]
+    
+
+==== Tuck jump
+
+_Sinomimi_: ((tuck jump)), + 
+_Esecuzione_: Eseguire un tuck jump. +
+_Strumenti_ : nessuno +
+_Effetti_: fa bene.
+
+image::figures/exercises/tuck_jump.svg[]
+
+
+==== wall sit
+
+_Sinomimi_: ((seduta con schiena al muro)) + 
+_Esecuzione_: schiena appoggiata al muro, femori paralleli al terreno. +
+_Strumenti_ : muro +
+_Effetti_: benefici quadricipiti.
+
+image::figures/exercises/wall_sit.svg[]
     
   
 
-Mancano ToDo	
+=== Mancano ToDo	
+
  jumping jack x 10, tuck jumps x 10)
-(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
-1 minute stop
-AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
+ (prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
+ 1 minute stop
+ AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
 
-.modello esercizio
-[[nome]]
-((nome)):: 
-    image:figures/exercises/nome.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((nome)), + 
-    _Esecuzione_: Eseguire un nome. +
-    _Strumenti_ : nessuno
-    _Effetti_: fa bene.
+=== Con Strumenti
 
+==== Clean
+
+_Sinomimi_: ((clean)). +
+_Effetti_: Esercizio in 4 step. +
+
+Esecuzione footnote:[Eventuali riferimenti da ritrovare.]::
+
+. Partenza 
+    ** chinati con le mani che afferrano il bilancere 
+    ** schiena leggermente inarcata.
+    ** peso bilanciato sotto i piedi.
+    ** sguardo in alto
+    ** testa allineata ala schiena
+    ** bilanciere a contatto con gli stinchi
+. Stacco
+    ** Spingi i piedi contro il terreno, tira indietro le ginocchia perchè il bilanciere muovendosi solo verso l'alto passi, sempre stando vicino al corpo..
+    ** Lo stacco avviene lentamente e culmina in un movimento esplosivo con la piena estensione della schiena.
+    ** Come la barra passa sopra le ginocchia, tieni il peso sui talloniil più possibile e comincia ad estendere le anche avanti
+    ** Quando la barra arriva a mezza altezza, velocemente e con potenza estendi le anche, le ginocchia, le anche, i talloni. +
+    Quando la barra prende inerzia solleva anche le spalle più velocemente possibile.
+    La barra dovrebbe raggiungere la parte alta dei fianchi o del torace.
+. Atterraggio
+    ** Appena cìè la completa estensione delle anche, porta il corpo sotto la sbarra, atterrando solidamente in front squat con lo sguardo in avanti. +
+    Mentre lo fai ruota i gomiti avanti e sotto la barra, mollando la presa e permettendo ai polsi di girarsi verso l'alto. Fai posare la barra di fronte alle spalle, tra il picco dei deltoidi e la gola
+. Finale
+    ** una volta che la barra è stabile, lentamente alzati fino alla posizione eretta. Se il peso è molto forte può essere più facile "rimbalzare" dalla posizione di squat senza pausa nella posizione bassa
+. Abbassate o Mollate il peso in sicurezza
+
+
+===== clean press
+
+Come il clean ma si completa con un push press
+
+==== Double dumbbell
+
+_Sinomimi_: ((double dumbbell)), + 
+_Esecuzione_: Eseguire un double dumbbell. +
+_Strumenti_ : dumbell x 2 +
+_Effetti_: fa bene.
+
+image::figures/exercises/double_dumbbell.svg[]
+
+
+==== Dumbbell Biceps Curl
+
+_Sinomimi_: ((dumbbell_biceps_curl)), + 
+_Esecuzione_: Eseguire un dumbbell_biceps_curl. +
+_Strumenti_ : nessuno
+_Effetti_: fa bene.
+
+image::figures/exercises/dumbbell_biceps_curl.svg[]
+    
+
+==== Dumbbell Front Raise
+
+_Sinomimi_: ((dumbbell_front_raise)), + 
+_Esecuzione_: Eseguire un dumbbell_front_raise. +
+_Strumenti_ : nessuno
+_Effetti_: fa bene.
+
+image::figures/exercises/dumbbell_front_raise.svg[]
+
+
+==== Triceps_press
+
+_Sinomimi_: ((triceps_press)) +
+_Esecuzione_: Eseguire un triceps_press +
+_Strumenti_ : nessuno +
+_Effetti_: fa bene.
+
+image::figures/exercises/triceps_press.svg[]
+
+==== Modello Esercizio
+
+_Sinomimi_: ((nome)), + 
+_Esecuzione_: Eseguire un nome. +
+_Strumenti_ : nessuno +
+_Effetti_: fa bene.
+
+image::figures/exercises/nome.svg[]
 
 
 === Sequenze varie
@@ -458,3 +543,4 @@ AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip t
     AMRAP 300(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
+include::12_crossfit.adoc[]
